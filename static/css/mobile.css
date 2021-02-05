@@ -16,6 +16,7 @@ html {
   --secondary-font-color: #7A7A7A;
   --tertiary-font-color: #7FD9BD;
   --extra-color: #4c4c4c;
+  --main-font: 'Montserrat', sans-serif;
 }
 a {
   text-decoration: none;
@@ -102,13 +103,40 @@ header .navbar {
 
 main .banner {
   width: 100%;
-  height: 600px;
+  height: 550px;
 }
 main .banner .banner-img{
-  background-image: url('../img/1.1.jpg');
+  background-image: url('../img/1.2.jpg');
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner .banner_title {
+  font-size: 3.2rem;
+  line-height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner .banner_bttn {
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: var(--tertiary-font-color);
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: var(--main-font);
 }
