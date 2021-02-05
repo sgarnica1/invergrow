@@ -7,13 +7,40 @@
   <meta name="robots" content="index, follow" />
   <title>Invergrow | Soluciones agrícolas</title>
   <link rel="stylesheet" href="../static/css/mobile.css">
-  <link rel="stylesheet" href="./static/css/tablet.css" media="screen and (min-width: 600px)">
-  <link rel="stylesheet" href="./static/css/desktop.css " media="screen and (min-width: 800px)">
+  <link rel="stylesheet" href="../static/css/tablet.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="../static/css/desktop.css " media="screen and (min-width: 800px)">
   <link rel="shortcut icon" href="../static/logo/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <script defer src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script defer src="../static/js/app.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Logo</h1>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="navbar_logo">
+        <img src="../static/logo/invergrow_logo_recortado_blanco.png" alt="">
+      </a>
+      <ul class="navbar_list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li class="navbar_list_item navbar_item"><a href="#" class="active">Inicio</a></li>
+        <li class="navbar_list_item navbar_item">
+          <a href="#">Catálogo</a>
+          <ul class="navbar_submenu">
+            <li class="navbar_submenu_item navbar_item"><a href="#">Insumos para invernadero</a></li>
+            <li class="navbar_submenu_item navbar_item"><a href="#">Sistemas de riego y accesorios</a></li>
+            <li class="navbar_submenu_item navbar_item"><a href="#">Tractores y maquinaria agrícola</a></li>
+          </ul>
+        </li>
+        <li class="navbar_list_item navbar_item"><a href="#">Nosotros</a></li>
+        <li class="navbar_list_item navbar_item"><a href="#">Contacto</a></li>
+        <li class="navbar_list_item navbar_item"><a href="#">Descargar catálogo</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
   </header>
     {% block body %}
 
