@@ -36,6 +36,7 @@ ul {
 }
 header {
   position: fixed;
+  /* z-index: 1; */
   width: 100%;
   height: 100px;
   background-color: transparent;
@@ -47,6 +48,7 @@ header {
   background-color: var(--main-color);
   height: 80px;
   top: 0;
+  /* border-bottom: solid 1px white; */
 }
 header .navbar {
   width: 100%;
@@ -190,7 +192,7 @@ main .categories_cards{
 main .categories .categories_card {
   width: 90%;
   height: 120px;
-  padding: 20px; 
+  padding: 5px; 
   text-align: center;
   margin: 10px 0;
   display: flex;
@@ -205,18 +207,17 @@ main .categories .categories_card {
 }
 .categories_card h4 {
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  text-shadow: 3px 1px 2px rgba(0, 0, 0, .5);
+  margin: 5px 0;
+  /* text-shadow: 3px 1px 2px rgba(0, 0, 0, .5); */
   letter-spacing: 2px;
 }
 .categories_card a {
   color: white;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-shadow: 3px 1px 2px rgba(0, 0, 0, .5);
+  font-size: 1.4rem;
+  font-weight: 400;
   transition: ease-in-out all 0.5s;
   letter-spacing: 2px;
 }
@@ -232,4 +233,56 @@ main .categories .categories_cards .cat2 {
 }
 main .categories .categories_cards .cat3 {
   background-image: url('/static/img/cat_3_dt.jpg');
+  margin-bottom: 30px;
+}
+.categories_description .category_description {
+  width: 100%;
+  padding: 40px 25px;
+  margin-bottom: 30px;
+  /* position: relative; */
+  height: 550px;
+}
+.categories_description .category_description h2 {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--extra-color);
+  margin-bottom: 20px;
+}
+.categories_description .category_description h3 {
+  font-size: 2rem;
+  color: var(--extra-color);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.categories_description .category_description h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--main-font-color);
+  margin-bottom: 20px;
+}
+.categories_description .category_description p {
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--main-font-color);
+  text-align: justify;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.categories_description .category_description button {
+  display: none;
+}
+.categories_description .category_description img {
+  width: 250px;
+  height: auto;
+  float: right;
+} 
+
+.categories_description .category_description.category_1 {
+  background-color: var(--main-color);
+  border-top-right-radius: 100px;
+}
+.categories_description .category_description.category_3 {
+  background-color: var(--main-color);
+  border-bottom-left-radius: 50px;
 }
