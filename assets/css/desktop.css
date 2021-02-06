@@ -244,4 +244,38 @@ main .hero p {
   text-align: center;
   font-family: var(--main-font);
 }
+footer .footer_content .footer_img img{
+  width: 300px;
+  height: auto;
+}
+footer .footer_content .footer_contact_info a {
+  margin: 10px 0px;
+}
+footer .footer_content .footer_contact_info h3{
+  margin: 10px 0;
+}
 
+.footer_contact_info.footer_contact_info-contact .footer_contact_link {
+  margin-left: 0px;
+}
+.footer_contact_info.footer_contact_info-more-info .info_links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer_contact_info.footer_contact_info-more-info .info_links a{
+  margin-right: 20px;
+}
+footer .footer_bottom {
+  display: grid;
+  min-height: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px 20px;
+}
+footer .footer_bottom .footer_copywright p {
+  margin: 0;
+  text-align: center;
+}
+footer .footer_bottom .footer_credits {
+  justify-self: flex-end;
+}

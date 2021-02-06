@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  position: relative;
 }
 
 :root {
@@ -363,10 +364,11 @@ main .hero img {
 main .contact_banner{
   width: 100%;
   min-height: 100px;
-  background-color: var(--main-color);
+  background-color: #E5E5E5;
   display: flex;
   align-items: center;
   flex-direction: column;
+  /* margin-bottom: 190px; */
   justify-content: center;
 }
 main .contact_banner .contact_banner_divider {
@@ -406,4 +408,83 @@ main .contact_banner .contact_banner_text a:hover {
   cursor: pointer;
   background-color: var(--extra-color);
   color: white;
+}
+footer {
+  width: 100%;
+}
+footer .footer_content {
+  background-color: var(--main-color);
+  padding: 20px 30px;
+}
+footer .footer_content .footer_contact_info.footer_contact_info-contact {
+  margin-bottom: 40px;
+}
+footer .footer_content .footer_contact_info h3{
+  font-size: 2.2rem;
+  color: var(--extra-color);
+  font-weight: bold;
+  margin: 20px 0;
+}
+.footer_contact_info.footer_contact_info-contact .footer_contact_link {
+  margin-left: 10px;
+}
+footer .footer_content .footer_contact_info a {
+  font-size: 1.4rem;
+  color: var(--extra-color);
+  cursor: pointer;
+  font-weight: 500;
+  margin: 20px 0px;
+  display: inline-block;
+}
+.footer_contact_info.footer_contact_info-contact .footer_contact_link span {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: var(--extra-color);
+  margin-right: 10px;
+}
+footer .footer_content img {
+  margin-top: 20px;
+  /* margin-left: -15px; */
+  width: 200px;
+  height: auto;
+}
+.footer_contact_info.footer_contact_info-more-info .info_links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+footer .footer_content .footer_contact_info a:hover {
+  color: var(--tertiary-font-color);
+}
+footer .footer_bottom {
+  display: flex;
+  min-height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+footer .footer_bottom .footer_social_media a i {
+  font-size: 20px;
+  margin: 15px 10px;
+  color: var(--main-font-color);
+}
+footer .footer_bottom .footer_social_media a i:hover {
+  cursor: pointer;
+  color: var(--tertiary-font-color);
+}
+footer .footer_bottom .footer_copywright p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--extra-color);
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+footer .footer_bottom .footer_credits a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--secondary-font-color);
+  margin-top: 20px;
+  text-decoration: underline;
 }

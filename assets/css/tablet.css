@@ -67,3 +67,36 @@ main .categories .categories_cards .categories_card.cat3 {
 main .contact_banner .contact_banner_text h3 {
   font-size: 3rem;
 }
+footer .footer_content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+footer .footer_content .footer_img {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer .footer_content .footer_img img{
+  width: 220px;
+  height: auto;
+}
+footer .footer_content .footer_contact_info-more-info {
+  order: 3;
+}
+footer .footer_content .footer_contact_info-contact {
+  order: 2;
+}
+
+footer .footer_content .footer_contact_info a {
+  margin: 10px 0px;
+}
+footer .footer_content .footer_contact_info h3{
+  margin: 10px 0;
+}
+
+.footer_contact_info.footer_contact_info-contact .footer_contact_link {
+  margin-left: 0px;
+}
