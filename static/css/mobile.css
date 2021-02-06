@@ -235,11 +235,18 @@ main .categories .categories_cards .cat3 {
   background-image: url('/static/img/cat_3_dt.jpg');
   margin-bottom: 30px;
 }
+.categories_description {
+  width: 100%;
+}
+.category_description_info {
+  width: 90%;
+  margin: 0 auto;
+}
 .categories_description .category_description {
   width: 100%;
   padding: 40px 25px;
   margin-bottom: 30px;
-  height: 550px;
+  height: 620px;
 }
 .categories_description .category_description h2 {
   font-size: 6rem;
