@@ -114,7 +114,6 @@ header .navbar {
 .navbar_submenu {
   display: none;
 }
-
 main .banner {
   width: 100%;
   height: 550px;
@@ -302,9 +301,8 @@ main .categories .categories_cards .cat3 {
   display: block;
 }
 
-
 .next-section {
   width: 100%;
   height: 50px;
   margin-top: 20px;
-}a
+}
