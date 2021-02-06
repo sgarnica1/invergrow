@@ -463,7 +463,7 @@ footer .footer_bottom {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 footer .footer_bottom .footer_social_media a i {
   font-size: 20px;
@@ -487,4 +487,40 @@ footer .footer_bottom .footer_credits a {
   color: var(--secondary-font-color);
   margin-top: 20px;
   text-decoration: underline;
+}
+main .to_top_bttn {
+  position: fixed;
+  right: 0px;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30px;
+  height: 30px;
+  transition: ease 0.5s all;
+  border-radius: 10px;
+}
+main .to_top_bttn a i{
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+main .to_top_bttn.hide {
+  display: none;
+  transition: ease 0.5s all;
+}
+main .whatsapp-btn {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: block;
+  transition: ease-in-out all 5s;
+}
+main .whatsapp-btn.hidew {
+  display: none;
+  transition: ease-in-out all 5s;
+}
+main .whatsapp-btn img{
+  width: 60px;
+  height: auto;
 }

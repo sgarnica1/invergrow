@@ -4,6 +4,8 @@ const nav = document.querySelector('.navbar_list');
 const header = document.querySelector('.header');
 const logo = document.querySelector('.navbar_logo').firstElementChild;
 const menuLinks = document.querySelectorAll('.navbar_list_item');
+const topBttn = document.getElementById('top-bttn');
+const whatsAppBttn = document.getElementById('whatsapp-bttn');
 
 menuBttn.addEventListener('click', () => {
   nav.classList.add('active');
@@ -39,18 +41,28 @@ window.onscroll = () => {
   if(this.scrollY > 20) {
     header.classList.add('sticky');
     logo.src = "./assets/logo/invergrow_logo_recortado.png";
-    // logo.classList.add('img-sticky');
     menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
-    // menuBttn.classList.add('toggle');
     menuLinks[0].firstElementChild.classList.add('active');
     scrollChangeTextColor();
   } else {
     header.classList.remove('sticky');
     logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
-    // logo.classList.remove('img-sticky');
-    // menuBttn.classList.remove('toggle');
     menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
     changeTextColor();
-    // menuLinks[0].firstElementChild.classList.remove('active');
+  }
+  // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
+  if (this.scrollY > 150) {
+    topBttn.classList.remove('hide');
+    whatsAppBttn.classList.remove('hidew');
+  } else {
+    topBttn.classList.add('hide');
+    whatsAppBttn.classList.add('hidew');
   }
 }
+
+whatsAppBttn.addEventListener('mouseover', () => {
+  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
+})
+whatsAppBttn.addEventListener('mouseout', () => {
+  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
+})

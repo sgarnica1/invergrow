@@ -279,3 +279,27 @@ footer .footer_bottom .footer_copywright p {
 footer .footer_bottom .footer_credits {
   justify-self: flex-end;
 }
+main .to_top_bttn {
+  position: fixed;
+  right: 10px;
+  bottom: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30px;
+  height: 30px;
+}
+main .to_top_bttn a i{
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+main .whatsapp-btn {
+  position: fixed;
+  bottom: 60px;
+  left: 30px;
+}
+main .whatsapp-btn img{
+  width: 60px;
+  height: auto;
+}
