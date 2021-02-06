@@ -514,11 +514,9 @@ main .whatsapp-btn {
   bottom: 10px;
   left: 10px;
   display: block;
-  transition: ease-in-out all 5s;
 }
 main .whatsapp-btn.hidew {
   display: none;
-  transition: ease-in-out all 5s;
 }
 main .whatsapp-btn img{
   width: 60px;

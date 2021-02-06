@@ -6,6 +6,7 @@ const logo = document.querySelector('.navbar_logo').firstElementChild;
 const menuLinks = document.querySelectorAll('.navbar_list_item');
 const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
+const footerCopywright = document.querySelector('.footer_copywright').firstElementChild
 
 menuBttn.addEventListener('click', () => {
   nav.classList.add('active');
@@ -66,3 +67,12 @@ whatsAppBttn.addEventListener('mouseover', () => {
 whatsAppBttn.addEventListener('mouseout', () => {
   whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
 })
+
+const setDate = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+  footerCopywright.textContent = `Copyright © ${year} Invergrow | Soluciones Agrícolas`;
+  return year
+}
+
+setDate();
