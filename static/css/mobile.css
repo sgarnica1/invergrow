@@ -299,3 +299,10 @@ main .categories .categories_cards .cat3 {
 .mobile_img {
   display: block;
 }
+
+
+.next-section {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
