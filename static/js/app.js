@@ -14,21 +14,23 @@ closeBttn.addEventListener('click', () => {
 
 const scrollChangeTextColor = () => {
   for(let el of menuLinks) {
-    if(el.firstElementChild.classList.contains('active')){
-      continue
-    } else {
-      el.firstElementChild.classList.add('toggle')
-    }
+    // if(el.firstElementChild.classList.contains('active')){
+    //   continue
+    // } else {
+    //   el.firstElementChild.classList.add('toggle')
+    // }
+    el.firstElementChild.classList.add('toggle')
   }
 }
 
 const changeTextColor = () => {
   for(let el of menuLinks) {
-    if(el.firstElementChild.classList.contains('active')){
-      continue
-    } else {
-      el.firstElementChild.classList.remove('toggle')
-    }
+    // if(el.firstElementChild.classList.contains('active')){
+    //   continue
+    // } else {
+    //   el.firstElementChild.classList.remove('toggle')
+    // }
+    el.firstElementChild.classList.remove('toggle')
   }
 }
 

@@ -116,8 +116,8 @@ main .banner {
   width: 100%;
   height: 550px;
 }
-main .banner .banner-img{
-  background-image: url('../img/1.2.jpg');
+main .banner .banner_img{
+  background-image: url('../img/1.3.jpg');
   width: 100%;
   height: 100%;
   background-position: center;
@@ -130,13 +130,18 @@ main .banner .banner-img{
 }
 
 .banner .banner_title {
-  font-size: 3.2rem;
+  font-size: 3rem;
   line-height: 50px;
   margin-left: 50px;
   margin-right: 50px;
   color: white;
   font-weight: bold;
   text-align: center;
+}
+
+.banner_title span {
+  color: var(--tertiary-font-color);
+  text-decoration: underline;
 }
 
 .banner .banner_bttn {
@@ -146,8 +151,85 @@ main .banner .banner-img{
   border-radius: 20px;
   padding: 10px 30px;
   background-color: var(--tertiary-font-color);
-  color: white;
+  color: var(--main-font-color);
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: var(--main-font);
+}
+.banner .banner_bttn:hover {
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: #6bb69e;
+  color: white;
+}
+
+main .categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 20px 10px;
+  min-height: 200px;
+}
+main .categories .categories_title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-size: 800;
+  color: var(--extra-color);
+  text-transform: uppercase;
+  margin: 10px 0 20px 0;
+}
+main .categories_cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main .categories .categories_card {
+  width: 90%;
+  height: 120px;
+  padding: 20px; 
+  text-align: center;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.categories_card h4 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-shadow: 3px 1px 2px rgba(0, 0, 0, .5);
+  letter-spacing: 2px;
+}
+.categories_card a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 3px 1px 2px rgba(0, 0, 0, .5);
+  transition: ease-in-out all 0.5s;
+  letter-spacing: 2px;
+}
+.categories_card a:hover {
+  text-decoration: underline;
+  transition: ease-in-out all 0.5s;
+}
+main .categories .categories_cards .cat1 {
+  background-image: url('/static/img/cat_1_dt.jpg');
+}
+main .categories .categories_cards .cat2 {
+  background-image: url('/static/img/cat_2_dt.jpg');
+}
+main .categories .categories_cards .cat3 {
+  background-image: url('/static/img/cat_3_dt.jpg');
 }
