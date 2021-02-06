@@ -142,5 +142,21 @@ main .categories .categories_card:hover {
   transition: ease all 0.1s;
   margin-top: 5px;
 }
-
-
+.categories_description .category_description button {
+  display: block;
+  float: left;
+}
+.categories_description .category_description {
+  height: 500px;
+}
+.desktop_img {
+  display: block;
+}
+.mobile_img {
+  display: none;
+}
+.categories_description .category_description img {
+  width: 850px;
+  height: auto;
+  float: right;
+} 
