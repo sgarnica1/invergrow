@@ -120,13 +120,13 @@ main .categories .categories_card {
 }
 
 main .categories .categories_cards .cat1 {
-  background-image: url('/static/img/cat_1_dt.jpg');
+  background-image: url('/assets/img/cat_1_dt.jpg');
 }
 main .categories .categories_cards .cat2 {
-  background-image: url('/static/img/cat_2_dt.jpg');
+  background-image: url('/assets/img/cat_2_dt.jpg');
 }
 main .categories .categories_cards .categories_card.cat3 {
-  background-image: url('/static/img/cat_3_dt.jpg');
+  background-image: url('/assets/img/cat_3_dt.jpg');
   grid-column: 1 / -1;
 }
 .categories_card h4 {

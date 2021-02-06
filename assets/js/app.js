@@ -38,18 +38,18 @@ window.onscroll = () => {
   // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
   if(this.scrollY > 20) {
     header.classList.add('sticky');
-    logo.src = "../static/logo/invergrow_logo_recortado.png";
+    logo.src = "./assets/logo/invergrow_logo_recortado.png";
     // logo.classList.add('img-sticky');
-    menuBttn.firstElementChild.style.backgroundImage = "url('./static/icon/menu.svg')"
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
     // menuBttn.classList.add('toggle');
     menuLinks[0].firstElementChild.classList.add('active');
     scrollChangeTextColor();
   } else {
     header.classList.remove('sticky');
-    logo.src = "../static/logo/invergrow_logo_recortado_blanco.png";
+    logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
     // logo.classList.remove('img-sticky');
     // menuBttn.classList.remove('toggle');
-    menuBttn.firstElementChild.style.backgroundImage = "url('./static/icon/menu_white.svg')"
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
     changeTextColor();
     // menuLinks[0].firstElementChild.classList.remove('active');
   }
