@@ -295,15 +295,115 @@ main .categories .categories_cards .cat3 {
   border-bottom-left-radius: 50px;
 }
 
-/* .desktop_img {
-  display: none;
-}
-.mobile_img {
-  display: block;
-} */
-
-.next-section {
+.brand_carrousel{
   width: 100%;
-  height: 50px;
-  margin-top: 20px;
+  min-height: 300px;
+  margin-top: 180px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.brand_carrousel h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--extra-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.brand_carrousel hr {
+  border: 1px solid var(--tertiary-font-color);
+  width: 80%;
+  margin: 50px auto;
+}
+.brand_carrousel .carrousel_container {
+  display: flex;
+  width: 80%;
+  overflow: scroll;
+  overflow-y: hidden;
+  margin: 0 auto;
+  gap: 50px;
+}
+.brand_carrousel .carrousel_container img {
+  width: 100px;
+  height: auto;
+}
+main .hero {
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+  background-image: url('../img/hero_background_img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+}
+main .hero p {
+  width: 80%;
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 30px;
+  text-align: center;
+  font-family: var(--main-font);
+  /* margin: 200px 0 50px 0; */
+}
+main .hero img {
+  width: 200px;
+  height: auto;
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  z-index: -1;
+}
+main .contact_banner{
+  width: 100%;
+  min-height: 100px;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main .contact_banner .contact_banner_divider {
+  width: 80%;
+  height: 30px;
+  background-color: var(--tertiary-font-color);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+main .contact_banner .contact_banner_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px 0;
+  width: 90%;
+}
+main .contact_banner .contact_banner_text h3 {
+  font-size: 2rem;
+  color: var(--extra-color);
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+main .contact_banner .contact_banner_text a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--extra-color);
+  border: 1px solid var(--extra-color);
+  border-radius: 15px;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+main .contact_banner .contact_banner_text a:hover {
+  cursor: pointer;
+  background-color: var(--extra-color);
+  color: white;
 }

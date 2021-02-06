@@ -226,3 +226,22 @@ main .categories .categories_card:hover {
   padding-left: 40px;
   grid-column: 2 / 3;
 }
+
+.brand_carrousel{
+  margin-top: 150px;
+}
+.brand_carrousel h2 {
+  font-size: 3.6rem;
+}
+
+main .hero p {
+  width: 80%;
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 40px;
+  text-align: center;
+  font-family: var(--main-font);
+}
+

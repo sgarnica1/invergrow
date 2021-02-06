@@ -64,6 +64,6 @@ main .categories .categories_cards .categories_card.cat3 {
 .categories_description .category_description p {
  width: 40%;
 }
-
-
-
+main .contact_banner .contact_banner_text h3 {
+  font-size: 3rem;
+}
