@@ -8,33 +8,26 @@ const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
 const footerCopywright = document.querySelector('.footer_copywright').firstElementChild
 
-menuBttn.addEventListener('click', () => {
-  nav.classList.add('active');
-})
-closeBttn.addEventListener('click', () => {
-  nav.classList.remove('active');
-})
-
 const scrollChangeTextColor = () => {
   for(let el of menuLinks) {
-    // if(el.firstElementChild.classList.contains('active')){
-    //   continue
-    // } else {
-    //   el.firstElementChild.classList.add('toggle')
-    // }
     el.firstElementChild.classList.add('toggle')
   }
 }
 
 const changeTextColor = () => {
   for(let el of menuLinks) {
-    // if(el.firstElementChild.classList.contains('active')){
-    //   continue
-    // } else {
-    //   el.firstElementChild.classList.remove('toggle')
-    // }
     el.firstElementChild.classList.remove('toggle')
   }
+};
+
+const showBttns = () => {
+  topBttn.classList.remove('hide');
+  whatsAppBttn.classList.remove('hidew');
+};
+
+const hideBttns = () => {
+  topBttn.classList.add('hide');
+  whatsAppBttn.classList.add('hidew');
 }
 
 window.onscroll = () => {
@@ -53,11 +46,9 @@ window.onscroll = () => {
   }
   // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
   if (this.scrollY > 150) {
-    topBttn.classList.remove('hide');
-    whatsAppBttn.classList.remove('hidew');
+    showBttns();
   } else {
-    topBttn.classList.add('hide');
-    whatsAppBttn.classList.add('hidew');
+    hideBttns();
   }
 }
 
@@ -66,6 +57,17 @@ whatsAppBttn.addEventListener('mouseover', () => {
 })
 whatsAppBttn.addEventListener('mouseout', () => {
   whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
+})
+
+menuBttn.addEventListener('click', () => {
+  nav.classList.add('active');
+  hideBttns();
+})
+closeBttn.addEventListener('click', () => {
+  nav.classList.remove('active');
+  if (this.scrollY > 150) {
+    showBttns();
+  }
 })
 
 const setDate = () => {
