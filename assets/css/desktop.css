@@ -240,9 +240,12 @@ main .categories .categories_card:hover {
   width: 80%;
   overflow: hidden;
   margin-bottom: 100px;
+  /* margin: 0; */
 }
 .brand_carousel .carousel .carousel_list img {
-  cursor: pointer;
+  /* cursor: pointer; */
+  width: 100px;
+  height: 100px;
 }
 main .hero p {
   width: 80%;

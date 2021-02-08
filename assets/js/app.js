@@ -90,22 +90,25 @@ const colorImage = () => {
     counter++;
   }
 }
-const uncolorImage = () => {
-  let counter = 1;
-  for(let img of carouselImg) {
-    let imgNum = img.className;
-    if(imgNum.includes(`img${counter}`)) {
-      img.src = `./assets/img/brands_logos/b_${counter}_nc.jpg`
-    }
-    counter++;
-  }
-}
+// const uncolorImage = () => {
+//   let counter = 1;
+//   for(let img of carouselImg) {
+//     let imgNum = img.className;
+//     if(imgNum.includes(`img${counter}`)) {
+//       img.src = `./assets/img/brands_logos/b_${counter}_nc.jpg`
+//     }
+//     counter++;
+//   }
+// }
 
-const changeImgColor = () => {
-  for(let img of carouselImg) {
-    img.addEventListener('mouseover', colorImage);
-    img.addEventListener('mouseout', uncolorImage);
-  }
-}
+// const changeImgColor = () => {
+//   let counter = 1;
+//   for(let img of carouselImg) {
+//     let i = document.querySelector(`.img${counter}`)
+//     i.addEventListener('mouseout', colorImage);
+//     i.addEventListener('mouseover', uncolorImage);
+//     counter++;
+//   }
+// }
 
-changeImgColor();
+// changeImgColor();
