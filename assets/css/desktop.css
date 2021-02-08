@@ -227,10 +227,10 @@ main .categories .categories_card:hover {
   grid-column: 2 / 3;
 }
 
-.brand_carrousel{
+.brand_carousel{
   margin-top: 150px;
 }
-.brand_carrousel h2 {
+.brand_carousel h2 {
   font-size: 3.6rem;
 }
 
