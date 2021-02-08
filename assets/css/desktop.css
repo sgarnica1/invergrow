@@ -216,7 +216,7 @@ main .categories .categories_card:hover {
 .category_description.category_2 img {
   float: unset;
   width: 85%;
-  margin-top: -280px;
+  margin-top: -300px;
 }
 .category_description.category_2 .category_description_info {
   display: grid;
@@ -233,7 +233,17 @@ main .categories .categories_card:hover {
 .brand_carousel h2 {
   font-size: 3.6rem;
 }
-
+.brand_carousel .carousel .carousel_list{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.brand_carousel .carousel .carousel_list img {
+  cursor: pointer;
+}
 main .hero p {
   width: 80%;
   display: block;

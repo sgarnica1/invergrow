@@ -6,7 +6,8 @@ const logo = document.querySelector('.navbar_logo').firstElementChild;
 const menuLinks = document.querySelectorAll('.navbar_list_item');
 const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
-const footerCopywright = document.querySelector('.footer_copywright').firstElementChild
+const footerCopywright = document.querySelector('.footer_copywright').firstElementChild;
+const carouselImg = document.querySelectorAll('.carousel_img');
 
 const scrollChangeTextColor = () => {
   for(let el of menuLinks) {
@@ -78,3 +79,33 @@ const setDate = () => {
 }
 
 setDate();
+
+const colorImage = () => {
+  let counter = 1;
+  for(let img of carouselImg) {
+    let imgNum = img.className;
+    if(imgNum.includes(`img${counter}`)) {
+      img.src = `./assets/img/brands_logos/b_${counter}_c.jpg`
+    }
+    counter++;
+  }
+}
+const uncolorImage = () => {
+  let counter = 1;
+  for(let img of carouselImg) {
+    let imgNum = img.className;
+    if(imgNum.includes(`img${counter}`)) {
+      img.src = `./assets/img/brands_logos/b_${counter}_nc.jpg`
+    }
+    counter++;
+  }
+}
+
+const changeImgColor = () => {
+  for(let img of carouselImg) {
+    img.addEventListener('mouseover', colorImage);
+    img.addEventListener('mouseout', uncolorImage);
+  }
+}
+
+changeImgColor();
