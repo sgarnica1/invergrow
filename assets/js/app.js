@@ -35,14 +35,14 @@ window.onscroll = () => {
   // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
   if(this.scrollY > 20) {
     header.classList.add('sticky');
-    logo.src = "./assets/logo/invergrow_logo_recortado.png";
-    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
+    logo.src = "../assets/logo/invergrow_logo_recortado.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('../assets/icon/menu.svg')"
     menuLinks[0].firstElementChild.classList.add('active');
     scrollChangeTextColor();
   } else {
     header.classList.remove('sticky');
-    logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
-    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
+    logo.src = "../assets/logo/invergrow_logo_recortado_blanco.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('../assets/icon/menu_white.svg')"
     changeTextColor();
   }
   // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
@@ -54,10 +54,10 @@ window.onscroll = () => {
 }
 
 whatsAppBttn.addEventListener('mouseover', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
+  whatsAppBttn.firstElementChild.firstElementChild.src = '../assets/icon/whatsapp_1.svg';
 })
 whatsAppBttn.addEventListener('mouseout', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
+  whatsAppBttn.firstElementChild.firstElementChild.src = '../assets/icon/whatsapp_2.svg';
 })
 
 menuBttn.addEventListener('click', () => {
@@ -85,7 +85,7 @@ const colorImage = () => {
   for(let img of carouselImg) {
     let imgNum = img.className;
     if(imgNum.includes(`img${counter}`)) {
-      img.src = `./assets/img/brands_logos/b_${counter}_c.jpg`
+      img.src = `../assets/img/brands_logos/b_${counter}_c.jpg`
     }
     counter++;
   }

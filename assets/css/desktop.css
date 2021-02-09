@@ -87,9 +87,21 @@ main .banner {
 
 .banner .banner_bttn {
   padding: 15px 50px;
-  color: var(--main-font-color);
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
   font-size: 2rem;
   font-weight: 600;
+}
+.banner .banner_text {
+  width: 50%;
+}
+main .banner.banner_categorias {
+  height: 500px;
+}
+main .banner.banner_categorias .banner_img{
+  height: 500px;
+}
+main .banner.banner_categorias .banner_img hr {
+  margin: 20px auto 30px auto;
 }
 main .categories_cards{
   display: grid;
@@ -173,7 +185,7 @@ main .categories .categories_card:hover {
 .categories_description .category_description.category_2 p {
   width: 100%;
 }
-.categories_description .category_description button {
+.categories_description .category_description a {
   display: block;
   outline: none;
   border: none;
@@ -183,6 +195,8 @@ main .categories .categories_card:hover {
   font-size: 1.6rem;
   font-weight: 600;
   cursor: pointer;
+  width: 180px;
+  text-align: center;
 }
 
 .categories_description .category_description .description_button_1 {
@@ -309,4 +323,25 @@ main .whatsapp-btn img{
 }
 .navbar_list .mobile_nav_social_media {
   display: none;
+}
+
+/* Product Grid */
+
+.product_grid .product_grid_cat .product_cat_title {
+  width: 30%;
+  margin-top: 80px;
+}
+.product_list {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+.product_list .product_element {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
