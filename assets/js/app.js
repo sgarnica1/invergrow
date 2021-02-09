@@ -73,6 +73,7 @@ menuBttn.addEventListener('click', () => {
 })
 closeBttn.addEventListener('click', () => {
   nav.classList.remove('active');
+  subMenu.classList.add('hide');
   if (this.scrollY > 150) {
     showBttns();
   }
