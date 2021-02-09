@@ -358,7 +358,7 @@ main .categories .categories_cards .cat3 {
   margin-bottom: 20px;
   max-width: 400px;
 }
-.categories_description .category_description button {
+.categories_description .category_description a {
   display: none;
 }
 .categories_description .category_description img {
