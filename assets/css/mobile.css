@@ -639,7 +639,7 @@ main .whatsapp-btn img{
   margin-bottom: 20px;
 }
 .product_list .product_element .product_img .product_img-background {
-  background-color: #7fd9bc69;
+  background-color: #bbbbbb69;
   width: 180px;
   height: 180px;
   position: absolute;
@@ -655,6 +655,8 @@ main .whatsapp-btn img{
   border-radius: 10px;
   bottom: 0;
   right: 0;
+  /* border: 1px solid #e2e2e2; */
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
 }
 .product_list .product_element .product_info {
   width: 100%;

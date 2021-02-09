@@ -3,6 +3,7 @@ const closeBttn = document.querySelector('.cancel-btn');
 const nav = document.querySelector('.navbar_list');
 const header = document.querySelector('.header');
 const logo = document.querySelector('.navbar_logo').firstElementChild;
+const homeLogo = document.getElementById('home_logo');
 const menuLinks = document.querySelectorAll('.navbar_list_item');
 const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
@@ -35,14 +36,15 @@ window.onscroll = () => {
   // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
   if(this.scrollY > 20) {
     header.classList.add('sticky');
-    logo.src = "../assets/logo/invergrow_logo_recortado.png";
-    menuBttn.firstElementChild.style.backgroundImage = "url('../assets/icon/menu.svg')"
+    logo.src = "./assets/logo/invergrow_logo_recortado.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
     menuLinks[0].firstElementChild.classList.add('active');
     scrollChangeTextColor();
   } else {
     header.classList.remove('sticky');
-    logo.src = "../assets/logo/invergrow_logo_recortado_blanco.png";
-    menuBttn.firstElementChild.style.backgroundImage = "url('../assets/icon/menu_white.svg')"
+    logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
     changeTextColor();
   }
   // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
@@ -54,10 +56,10 @@ window.onscroll = () => {
 }
 
 whatsAppBttn.addEventListener('mouseover', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = '../assets/icon/whatsapp_1.svg';
+  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
 })
 whatsAppBttn.addEventListener('mouseout', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = '../assets/icon/whatsapp_2.svg';
+  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
 })
 
 menuBttn.addEventListener('click', () => {
@@ -85,30 +87,8 @@ const colorImage = () => {
   for(let img of carouselImg) {
     let imgNum = img.className;
     if(imgNum.includes(`img${counter}`)) {
-      img.src = `../assets/img/brands_logos/b_${counter}_c.jpg`
+      img.src = `./assets/img/brands_logos/b_${counter}_c.jpg`
     }
     counter++;
   }
 }
-// const uncolorImage = () => {
-//   let counter = 1;
-//   for(let img of carouselImg) {
-//     let imgNum = img.className;
-//     if(imgNum.includes(`img${counter}`)) {
-//       img.src = `./assets/img/brands_logos/b_${counter}_nc.jpg`
-//     }
-//     counter++;
-//   }
-// }
-
-// const changeImgColor = () => {
-//   let counter = 1;
-//   for(let img of carouselImg) {
-//     let i = document.querySelector(`.img${counter}`)
-//     i.addEventListener('mouseout', colorImage);
-//     i.addEventListener('mouseover', uncolorImage);
-//     counter++;
-//   }
-// }
-
-// changeImgColor();
