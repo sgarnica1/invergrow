@@ -119,10 +119,37 @@ header .navbar {
 .navbar .navbar_list .navbar_item a{
   color: var(--main-color);
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
+}
+.navbar .navbar_list {
+  overflow-y: scroll;
+}
+.navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu.hide {
+  display: none;
 }
 .navbar_submenu {
   display: none;
+  background-color: var(--extra-color);
+}
+.navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu li a {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu li {
+  border-bottom: 1px solid var(--secondary-font-color);
+  width: 100%;
+  padding-left: 0px;
+}
+.navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent span i{
+  color: white;
+  font-size: 1.6rem;
+  margin-right: -5px;
 }
 main .banner {
   width: 100%;

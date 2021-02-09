@@ -3,8 +3,10 @@ const closeBttn = document.querySelector('.cancel-btn');
 const nav = document.querySelector('.navbar_list');
 const header = document.querySelector('.header');
 const logo = document.querySelector('.navbar_logo').firstElementChild;
-const homeLogo = document.getElementById('home_logo');
+const navBarSubMenu = document.querySelector('.navbar_submenu_parent');
+const subMenu = document.querySelector('.navbar_submenu');
 const menuLinks = document.querySelectorAll('.navbar_list_item');
+const subMenuDropBttn = document.getElementById('dropdown-menu');
 const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
 const footerCopywright = document.querySelector('.footer_copywright').firstElementChild;
@@ -40,11 +42,13 @@ window.onscroll = () => {
     menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
     menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
     menuLinks[0].firstElementChild.classList.add('active');
+    subMenuDropBttn.style.color = "var(--main-font-color)"
     scrollChangeTextColor();
   } else {
     header.classList.remove('sticky');
     logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
     menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
+    subMenuDropBttn.style.color = "white"
     changeTextColor();
   }
   // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
@@ -65,11 +69,24 @@ whatsAppBttn.addEventListener('mouseout', () => {
 menuBttn.addEventListener('click', () => {
   nav.classList.add('active');
   hideBttns();
+  subMenuDropBttn.style.color = "white";
 })
 closeBttn.addEventListener('click', () => {
   nav.classList.remove('active');
   if (this.scrollY > 150) {
     showBttns();
+  }
+})
+navBarSubMenu.addEventListener('click', () => {
+  subMenu.classList.toggle('hide');
+  if(subMenu.className.includes('hide')) {
+    subMenuDropBttn.style.color = "white"
+    subMenuDropBttn.classList.remove('fa-angle-up');
+    subMenuDropBttn.classList.add('fa-angle-down');
+  } else {
+    subMenuDropBttn.style.color = "var(--extra-color)"
+    subMenuDropBttn.classList.remove('fa-angle-down');
+    subMenuDropBttn.classList.add('fa-angle-up');
   }
 })
 
@@ -92,3 +109,30 @@ const colorImage = () => {
     counter++;
   }
 }
+
+navBarSubMenu.addEventListener('mouseover', () => {
+  header.classList.add('sticky');
+  logo.src = "./assets/logo/invergrow_logo_recortado.png";
+  menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
+  menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
+  menuLinks[0].firstElementChild.classList.add('active');
+  subMenuDropBttn.style.color = "var(--tertiary-font-color)"
+  subMenuDropBttn.classList.remove('fa-angle-down');
+  subMenuDropBttn.classList.add('fa-angle-up');
+  scrollChangeTextColor();
+})
+
+navBarSubMenu.addEventListener('mouseout', () => {
+  subMenuDropBttn.classList.add('fa-angle-down');
+  subMenuDropBttn.classList.remove('fa-angle-up');
+  if(this.scrollY > 20) {
+    subMenuDropBttn.style.color = "var(--main-font-color)";
+  }
+  if(this.scrollY < 20) {
+    header.classList.remove('sticky');
+    logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
+    subMenuDropBttn.style.color = "white"
+    changeTextColor();
+  }
+})
