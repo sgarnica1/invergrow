@@ -42,7 +42,7 @@ window.onscroll = () => {
     header.classList.add('sticky');
     logo.src = "./assets/logo/invergrow_logo_recortado.png";
     menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
-    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
+    // menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
     menuLinks[0].firstElementChild.classList.add('active');
     subMenuDropBttn.style.color = "var(--main-font-color)"
     scrollChangeTextColor();
@@ -55,7 +55,11 @@ window.onscroll = () => {
   }
   // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
   if (this.scrollY > 150) {
-    showBttns();
+    if(nav.className.includes('active')) {
+      hideBttns();
+    } else {
+      showBttns();
+    }
   } else {
     hideBttns();
   }
@@ -73,9 +77,12 @@ menuBttn.addEventListener('click', () => {
   hideBttns();
   subMenuDropBttn.style.color = "white";
 })
+
 closeBttn.addEventListener('click', () => {
   nav.classList.remove('active');
   subMenu.classList.add('hide');
+  fb.style.display = "inline-block";
+  ig.style.display = "inline-block";
   if (this.scrollY > 150) {
     showBttns();
   }
@@ -92,8 +99,7 @@ navBarSubMenu.addEventListener('click', () => {
     subMenuDropBttn.style.color = "var(--extra-color)"
     subMenuDropBttn.classList.remove('fa-angle-down');
     subMenuDropBttn.classList.add('fa-angle-up');
-    fb.style.display = "none";
-    ig.style.display = "none";
+    fb.parentElement.style.position = "relative";
   }
 })
 

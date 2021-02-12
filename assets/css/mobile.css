@@ -142,15 +142,15 @@ header .navbar {
 }
 .icon.cancel-btn {
   position: absolute;
-  top: 10px;
+  top: 40px;
   right: 20px;
   color: var(--main-color);
-  background-image: url('../icon/times-solid-white.svg');
+  background-image: url('../icon/close.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 #dropdown-menu {
   background-image: url('../icon/angle-down.svg');
@@ -564,6 +564,8 @@ footer .footer_content .footer_contact_info h3{
 }
 .footer_contact_info.footer_contact_info-contact .footer_contact_link {
   margin-left: 10px;
+  display: flex;
+  align-items: center;
 }
 footer .footer_content .footer_contact_info a {
   font-size: 1.4rem;
@@ -575,9 +577,21 @@ footer .footer_content .footer_contact_info a {
 }
 .footer_contact_info.footer_contact_info-contact .footer_contact_link span {
   display: inline-block;
-  font-size: 1.6rem;
-  color: var(--extra-color);
   margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+.footer_contact_info.footer_contact_info-contact .footer_contact_link .contact_link--email {
+  background-image: url('../icon/envelope.svg');
+}
+.footer_contact_info.footer_contact_info-contact .footer_contact_link .contact_link--phone {
+  background-image: url('../icon/phone.svg');
+}
+.footer_contact_info.footer_contact_info-contact .footer_contact_link .contact_link--whatsapp {
+  background-image: url('../icon/wa.svg');
 }
 footer .footer_content img {
   margin-top: 20px;
