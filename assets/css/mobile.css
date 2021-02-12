@@ -70,7 +70,7 @@ header .navbar {
   background-color: var(--main-font-color);
   top: 0;
   left: -100%;
-  padding-top: 50px;
+  padding-top: 100px;
   transition: ease all 0.5s;
   text-align: center;
 }
@@ -79,11 +79,44 @@ header .navbar {
 }
 .navbar_list .mobile_nav_social_media {
   display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  position: absolute;
+  bottom: 0;
 }
-.navbar_list .mobile_nav_social_media i{
-  color: white;
-  font-size: 23px;
-  margin: 60px 20px;
+.mobile_nav_social_media a{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 20px;
+} 
+.mobile_nav_social_media .facebook {
+  background-image: url('../icon/fb.svg');
+}
+.mobile_nav_social_media .instagram {
+  background-image: url('../icon/ig.svg');
+}
+.footer_social_media a{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 20px;
+  margin: 20px;
+} 
+.footer_social_media .facebook {
+  background-image: url('../icon/fb_black.svg');
+}
+.footer_social_media .instagram {
+  background-image: url('../icon/ig_black.svg');
 }
 
 .icon {
@@ -111,7 +144,22 @@ header .navbar {
   position: absolute;
   top: 10px;
   right: 20px;
-  color: var(--main-color)
+  color: var(--main-color);
+  background-image: url('../icon/times-solid-white.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+#dropdown-menu {
+  background-image: url('../icon/angle-down.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
 }
 .navbar .navbar_list .navbar_item {
   line-height: 60px;
@@ -120,6 +168,7 @@ header .navbar {
   color: var(--main-color);
   font-size: 1.8rem;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .navbar .navbar_list {
   overflow-y: scroll;
@@ -589,10 +638,14 @@ main .to_top_bttn {
   justify-content: center;
   align-items: center;
 }
-main .to_top_bttn a i{
+main .to_top_bttn a img {
+    width: 30px;
+    height: auto;
+}
+/* main .to_top_bttn a i{
   font-size: 3.6rem;
   color: white;
-}
+} */
 main .to_top_bttn.hide {
   display: none;
   transition: ease 0.5s all;

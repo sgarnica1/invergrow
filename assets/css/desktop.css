@@ -57,6 +57,9 @@ header .navbar {
 /* .navbar .navbar_list .navbar_item .active {
   color: #565656;
 } */
+#dropdown-menu {
+  display: none;
+}
 .navbar .navbar_list .navbar_item {
   margin-right: 20px;
 }

@@ -11,6 +11,8 @@ const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
 const footerCopywright = document.querySelector('.footer_copywright').firstElementChild;
 const carouselImg = document.querySelectorAll('.carousel_img');
+const fb = document.querySelector('.facebook');
+const ig = document.querySelector('.instagram');
 
 const scrollChangeTextColor = () => {
   for(let el of menuLinks) {
@@ -84,10 +86,14 @@ navBarSubMenu.addEventListener('click', () => {
     subMenuDropBttn.style.color = "white"
     subMenuDropBttn.classList.remove('fa-angle-up');
     subMenuDropBttn.classList.add('fa-angle-down');
+    fb.style.display = "inline-block";
+    ig.style.display = "inline-block";
   } else {
     subMenuDropBttn.style.color = "var(--extra-color)"
     subMenuDropBttn.classList.remove('fa-angle-down');
     subMenuDropBttn.classList.add('fa-angle-up');
+    fb.style.display = "none";
+    ig.style.display = "none";
   }
 })
 
