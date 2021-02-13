@@ -226,7 +226,7 @@ main .banner.banner_categorias .banner_img {
   height: 400px;
 }
 main .banner.banner--insumos .banner_img {
-  background-image: url('../img/cat_ban_1.jpg');
+  background-image: url('../img/cat_ban_1.1.jpg');
 }
 main .banner.banner--sistemas .banner_img {
   background-image: url('../img/cat_ban_2.jpg');
@@ -690,8 +690,8 @@ main .whatsapp-btn img{
 }
 .product_grid .product_grid_cat .product_cat_title {
   background-color: var(--main-color);
-  height: 50px;
-  width: 60%;
+  height: 70px;
+  width: 80%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -702,9 +702,24 @@ main .whatsapp-btn img{
 }
 .product_grid .product_grid_cat .product_cat_title h3 {
   color: var(--extra-color);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-transform: uppercase;
+  margin-left: 20px;
+  text-align: right;
+}
+.product_grid .product_grid_cat.product_grid-one_el .product_list {
+  display: flex;
+}
+.product_grid .product_grid_cat.product_grid-one_el .product_list .product_element ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.product_grid .product_grid_cat.product_grid-one_el .product_list .product_element ul li {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 30px;
+  color: var(--extra-color);
 }
 
 .product_list {
