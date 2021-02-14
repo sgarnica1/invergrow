@@ -103,14 +103,24 @@ footer .footer_content .footer_contact_info h3{
 
 /* Product Grid */
 
-.product_grid .product_grid_cat .product_cat_title {
-  width: 40%;
-  margin-top: 80px;
+.product_list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
 }
-/* .product_grid .product_grid_cat.product_grid_cat-5 .product_list .product_element{
+.product_list .product_element {
+  margin-bottom: 30px;
+}
+.single_product_list {
   display: flex;
-  width: 90%;
+  justify-content: center;
 }
-.product_grid .product_grid_cat.product_grid_cat-5 .product_list .product_element > div{
-margin: 20px;
-} */
+.single_product_list .product_element {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
