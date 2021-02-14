@@ -752,6 +752,7 @@ main .whatsapp-btn img{
 .product_list .product_element .product_img{
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .product_list .product_element .product_img img {
   width: 180px;

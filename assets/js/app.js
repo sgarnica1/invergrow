@@ -15,6 +15,9 @@ const fb = document.querySelector('.facebook');
 const ig = document.querySelector('.instagram');
 
 const carouselBttnNextPrev = document.querySelectorAll('.carousel_bttn');
+const prodcutImg = document.querySelectorAll('.product_img')
+const closePopUpBttn = document.querySelector('.close_popup_bttn');
+const productPopUp = document.querySelector('.pop_up-product');
 
 window.onscroll = () => {
   // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
@@ -170,3 +173,20 @@ const changeCarouselProductImg = () => {
   }
 }
 changeCarouselProductImg();
+
+//Show hide product Pop Up
+closePopUpBttn.addEventListener('click', () => {
+  productPopUp.classList.add('hide');
+  document.body.classList.remove('block-scroll');
+})
+
+const showPopUpProduct = () => {
+  for(let img of prodcutImg) {
+    img.addEventListener('click', () => {
+      productPopUp.classList.remove('hide');
+      document.body.classList.add('block-scroll');
+      productPopUp.children[1].src = img.firstElementChild.src
+    })
+  }
+}
+showPopUpProduct();

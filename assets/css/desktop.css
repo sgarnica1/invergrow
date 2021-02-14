@@ -396,21 +396,37 @@ main .whatsapp-btn img{
 .product_grid .product_grid_cat .product_cat_title {
   width: 30%;
 }
+
+/*--POPUP PRODUCT--*/
 .block-scroll {
   overflow: hidden;
 }
-.product_grid .pop_up-product {
+.product_grid .pop_up-product.hide {
   display: none;
+}
+.product_grid .pop_up-product {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: 5;
   top: 0;
   left: 0;
-  /* display: flex;  */
+  display: flex; 
   justify-content: center;
   align-items: center;
+}
+.product_grid .pop_up-product .close_popup_bttn {
+  background-image: url('../icon/close.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  cursor: pointer;
 }
 .product_grid .pop_up-product img {
   width: 350px;
