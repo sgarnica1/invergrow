@@ -127,3 +127,6 @@ footer .footer_content .footer_contact_info h3{
 .product_grid .pop_up-product {
   display: none;
 }
+.block-scroll {
+  overflow: hidden;
+}

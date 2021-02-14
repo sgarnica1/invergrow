@@ -791,3 +791,6 @@ main .whatsapp-btn img{
 .product_grid .pop_up-product {
   display: none;
 }
+.block-scroll {
+  overflow: hidden;
+}

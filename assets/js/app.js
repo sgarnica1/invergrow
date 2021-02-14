@@ -77,6 +77,7 @@ menuBttn.addEventListener('click', () => {
   nav.classList.add('active');
   hideBttns();
   subMenuDropBttn.style.color = "white";
+  document.body.classList.add('block-scroll');
 })
 
 closeBttn.addEventListener('click', () => {
@@ -84,6 +85,7 @@ closeBttn.addEventListener('click', () => {
   subMenu.classList.add('hide');
   fb.style.display = "inline-block";
   ig.style.display = "inline-block";
+  document.body.classList.remove('block-scroll');
   if (this.scrollY > 150) {
     showBttns();
   }
@@ -174,19 +176,41 @@ const changeCarouselProductImg = () => {
 }
 changeCarouselProductImg();
 
+
+
 //Show hide product Pop Up
-closePopUpBttn.addEventListener('click', () => {
+
+const closePopUpProduct = () => {
   productPopUp.classList.add('hide');
   document.body.classList.remove('block-scroll');
-})
+  document.addEventListener('keyup', (key) => {
+    if(key.keyCode === 27) {
+      closePopUpProduct();
+    }
+  })
+}
 
 const showPopUpProduct = () => {
   for(let img of prodcutImg) {
-    img.addEventListener('click', () => {
-      productPopUp.classList.remove('hide');
-      document.body.classList.add('block-scroll');
-      productPopUp.children[1].src = img.firstElementChild.src
-    })
+    for(let i of img.children) {
+      i.addEventListener('click', () => {
+        if(i.className.includes('img_front')) {
+          productPopUp.classList.remove('hide');
+          document.body.classList.add('block-scroll');
+          productPopUp.children[1].src = i.src
+          productPopUp.children[1].alt = i.alt
+        }
+      })
+    }
   }
 }
-showPopUpProduct();
+
+
+
+window.onload = () => {
+  if(document.body.offsetWidth > 900) {
+    showPopUpProduct();
+    closePopUpBttn.addEventListener('click', closePopUpProduct)
+  }
+}
+
