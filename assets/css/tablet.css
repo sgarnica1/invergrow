@@ -124,3 +124,6 @@ footer .footer_content .footer_contact_info h3{
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
 }
+.product_grid .pop_up-product {
+  display: none;
+}

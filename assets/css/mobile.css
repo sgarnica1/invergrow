@@ -788,3 +788,6 @@ main .whatsapp-btn img{
 .product_list .product_element .product_info .product_description_list li{
   line-height: 30px;
 }
+.product_grid .pop_up-product {
+  display: none;
+}
