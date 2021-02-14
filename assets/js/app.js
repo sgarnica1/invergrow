@@ -14,6 +14,36 @@ const carouselImg = document.querySelectorAll('.carousel_img');
 const fb = document.querySelector('.facebook');
 const ig = document.querySelector('.instagram');
 
+const carouselBttnNextPrev = document.querySelectorAll('.carousel_bttn');
+
+window.onscroll = () => {
+  // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
+  if(this.scrollY > 20) {
+    header.classList.add('sticky');
+    logo.src = "./assets/logo/invergrow_logo_recortado.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
+    menuLinks[0].firstElementChild.classList.add('active');
+    subMenuDropBttn.style.color = "var(--main-font-color)"
+    scrollChangeTextColor();
+  } else {
+    header.classList.remove('sticky');
+    logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
+    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
+    subMenuDropBttn.style.color = "white"
+    changeTextColor();
+  }
+  if (this.scrollY > 150) {
+    if(nav.className.includes('active')) {
+      hideBttns();
+    } else {
+      showBttns();
+    }
+  } else {
+    hideBttns();
+  }
+}
+
+
 const scrollChangeTextColor = () => {
   for(let el of menuLinks) {
     el.firstElementChild.classList.add('toggle')
@@ -26,6 +56,8 @@ const changeTextColor = () => {
   }
 };
 
+
+//WhatsApp and To Top Bttn Show and Hide
 const showBttns = () => {
   topBttn.classList.remove('hide');
   whatsAppBttn.classList.remove('hidew');
@@ -36,42 +68,8 @@ const hideBttns = () => {
   whatsAppBttn.classList.add('hidew');
 }
 
-window.onscroll = () => {
-  // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
-  if(this.scrollY > 20) {
-    header.classList.add('sticky');
-    logo.src = "./assets/logo/invergrow_logo_recortado.png";
-    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
-    // menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu.svg')"
-    menuLinks[0].firstElementChild.classList.add('active');
-    subMenuDropBttn.style.color = "var(--main-font-color)"
-    scrollChangeTextColor();
-  } else {
-    header.classList.remove('sticky');
-    logo.src = "./assets/logo/invergrow_logo_recortado_blanco.png";
-    menuBttn.firstElementChild.style.backgroundImage = "url('./assets/icon/menu_white.svg')"
-    subMenuDropBttn.style.color = "white"
-    changeTextColor();
-  }
-  // this.scrollY > 150 ? topBttn.classList.remove('hide') : topBttn.classList.add('hide');
-  if (this.scrollY > 150) {
-    if(nav.className.includes('active')) {
-      hideBttns();
-    } else {
-      showBttns();
-    }
-  } else {
-    hideBttns();
-  }
-}
 
-whatsAppBttn.addEventListener('mouseover', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
-})
-whatsAppBttn.addEventListener('mouseout', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
-})
-
+//Mobile Menu
 menuBttn.addEventListener('click', () => {
   nav.classList.add('active');
   hideBttns();
@@ -87,6 +85,9 @@ closeBttn.addEventListener('click', () => {
     showBttns();
   }
 })
+
+
+//Submenu
 navBarSubMenu.addEventListener('click', () => {
   subMenu.classList.toggle('hide');
   if(subMenu.className.includes('hide')) {
@@ -102,26 +103,6 @@ navBarSubMenu.addEventListener('click', () => {
     fb.parentElement.style.position = "relative";
   }
 })
-
-const setDate = () => {
-  const date = new Date();
-  const year = date.getFullYear();
-  footerCopywright.textContent = `Copyright © ${year} Invergrow | Soluciones Agrícolas`;
-  return year
-}
-
-setDate();
-
-const colorImage = () => {
-  let counter = 1;
-  for(let img of carouselImg) {
-    let imgNum = img.className;
-    if(imgNum.includes(`img${counter}`)) {
-      img.src = `./assets/img/brands_logos/b_${counter}_c.jpg`
-    }
-    counter++;
-  }
-}
 
 navBarSubMenu.addEventListener('mouseover', () => {
   header.classList.add('sticky');
@@ -149,3 +130,43 @@ navBarSubMenu.addEventListener('mouseout', () => {
     changeTextColor();
   }
 })
+
+
+//WhastApp bttn
+whatsAppBttn.addEventListener('mouseover', () => {
+  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
+})
+whatsAppBttn.addEventListener('mouseout', () => {
+  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
+})
+
+
+//Footer Date
+const setDate = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+  footerCopywright.textContent = `Copyright © ${year} Invergrow | Soluciones Agrícolas`;
+  return year
+}
+
+setDate();
+
+
+//Change carousel product image
+const changeCarouselProductImg = () => {
+  for(let bttn of carouselBttnNextPrev) {
+    bttn.addEventListener('click', () => {
+      const imgs = bttn.parentElement.children[1].children;
+      for(let i of imgs) {
+        if(i.className.includes('img_back')) {
+          i.classList.add('img_front')
+          i.classList.remove('img_back')
+        } else {
+          i.classList.remove('img_front')
+          i.classList.add('img_back')
+        }
+      }
+    })
+  }
+}
+changeCarouselProductImg();
