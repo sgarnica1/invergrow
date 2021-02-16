@@ -19,6 +19,7 @@ html {
   --tertiary-font-color: #7FD9BD;
   --extra-color: #4c4c4c;
   --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
@@ -86,6 +87,7 @@ header .navbar {
   font-weight: 500;
   text-transform: uppercase;
   margin-left: 20px;
+  font-family: var(--secondary-font);
 }
 .navbar .navbar_list.active {
   left: 0;
@@ -165,7 +167,7 @@ header .navbar {
 }
 .navbar_submenu {
   display: none;
-  background-color: var(--main-font-color);
+  background-color: #222222;
 }
 .navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu {
   display: flex;
@@ -174,7 +176,7 @@ header .navbar {
   align-items: center;
 }
 .navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu li {
-  border-bottom: 1px solid var(--secondary-font-color);
+  /* border-bottom: 1px solid var(--secondary-font-color); */
   width: 100%;
   padding-left: 0px;
 }
@@ -279,7 +281,6 @@ main .banner.banner_categorias .banner_img p{
   width: 80%;
   height: 50px;
   background-color: var(--tertiary-font-color);
-  /* background-color: var(--extra-color); */
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -340,7 +341,6 @@ main .categories .categories_card {
   font-weight: 600;
   text-transform: uppercase;
   margin: 5px 0;
-  /* text-shadow: 3px 1px 2px rgba(0, 0, 0, .5); */
   letter-spacing: 2px;
 }
 .categories_card a {
@@ -397,10 +397,10 @@ main .categories .categories_cards .cat3 {
 }
 .categories_description .category_description p {
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--main-font-color);
   text-align: justify;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom: 20px;
   max-width: 400px;
 }
@@ -481,7 +481,7 @@ main .hero p {
   display: block;
   color: white;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 30px;
   text-align: center;
   font-family: var(--main-font);
@@ -519,7 +519,7 @@ main .contact_banner .contact_banner_text {
   width: 90%;
 }
 main .contact_banner .contact_banner_text h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--extra-color);
   font-weight: bold;
   line-height: 40px;
@@ -622,7 +622,7 @@ footer .footer_bottom .footer_social_media a i:hover {
   color: var(--tertiary-font-color);
 }
 footer .footer_bottom .footer_copywright p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--extra-color);
   margin: 10px 0 25px 0;
@@ -809,4 +809,13 @@ main .whatsapp-btn img{
 .marca_tractor {
   height: 150px;
   width: auto;
+}
+
+/*--CONTACTO--*/
+main .banner.contact_banner .banner_img {
+  background-image: url('../img/contact_banner.jpg');
+}
+main .banner.contact_banner {
+  height: 350px;
+  margin-bottom: 30px;
 }

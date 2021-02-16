@@ -16,6 +16,8 @@ html {
   --secondary-font-color: #7A7A7A;
   --tertiary-font-color: #7FD9BD;
   --extra-color: #4c4c4c;
+  --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
 }
 
 .icon {
@@ -72,6 +74,8 @@ header .navbar {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-left: 0;
+  font-family: var(--secondary-font);
 }
 .navbar .navbar_list .navbar_item a.toggle {
   color: var(--extra-color);
@@ -81,6 +85,10 @@ header .navbar {
   cursor: pointer;
   color: var(--tertiary-font-color);
   transition: ease 0.3s all;
+}
+.navbar_list_item.navbar_item .activeSection {
+  text-decoration: underline;
+  border-bottom: none;
 }
 .navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu {
   display: none;
@@ -475,4 +483,17 @@ main .whatsapp-btn img{
   width: 400px;
   height: 400px;
   border-radius: 5px;
+}
+
+/*--CONTACTO--*/
+main .banner.contact_banner .banner_img {
+  background-position: center;
+  background-image: url('../img/contact_banner.jpg');
+}
+main .banner.contact_banner {
+  height: 400px;
+  margin-bottom: 30px;
+}
+main .banner.contact_banner .banner_title {
+  font-size: 4rem;
 }

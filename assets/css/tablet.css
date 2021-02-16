@@ -17,6 +17,7 @@ html {
   --tertiary-font-color: #7FD9BD;
   --extra-color: #4c4c4c;
   --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
