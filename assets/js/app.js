@@ -15,6 +15,7 @@ const fb = document.querySelector('.facebook');
 const ig = document.querySelector('.instagram');
 
 const carouselBttnNextPrev = document.querySelectorAll('.carousel_bttn');
+const carouselBttnNextPrevMoreImgs = document.querySelectorAll('.carousel_bttn_moreimgs');
 const prodcutImg = document.querySelectorAll('.product_img')
 const closePopUpBttn = document.querySelector('.close_popup_bttn');
 const productPopUp = document.querySelector('.pop_up-product');
@@ -176,7 +177,37 @@ const changeCarouselProductImg = () => {
 }
 changeCarouselProductImg();
 
+const changeCarouselProductImgThreeOrMore = () => {
 
+  for(let bttn of carouselBttnNextPrevMoreImgs) {
+    bttn.addEventListener('click', () => {
+      const imgs = bttn.parentElement.children[1].children;
+      let amountOfImgs = imgs.length;
+      let hideImg = 0;
+      let showImg = 0;
+      while(hideImg < amountOfImgs -1  && showImg < amountOfImgs) {
+        showImg++;
+        if(imgs[hideImg].className.includes('img_front')) {
+          imgs[hideImg].classList.remove('img_front');
+          imgs[hideImg].classList.add('img_back');
+        }
+        if (imgs[showImg].className.includes('img_back')) {
+          imgs[showImg].classList.add('img_front');
+          imgs[showImg].classList.remove('img_back')
+        }
+      }
+
+      // if(hideImg === amountOfImgs -1  && showImg === amountOfImgs) {
+      //   console.log(imgs[showImg].className)
+      //   hideImg = 0;
+      //   showImg = 1;
+      //   console.log(hideImg)
+      //   return
+      // }
+    })
+  }
+}
+// changeCarouselProductImgThreeOrMore()
 
 //Show hide product Pop Up
 
