@@ -78,13 +78,13 @@ header .navbar {
   left: 0;
 }
 .navbar_list .mobile_nav_social_media {
-  display: block;
+  /* display: block; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 100px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
 }
 .mobile_nav_social_media a{
