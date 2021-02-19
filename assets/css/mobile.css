@@ -827,15 +827,16 @@ main .banner.contact_banner {
   width: 100%;
   min-height: 500px;
   padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 .contact .contact_form_container {
   width: 100%;
 }
 .contact .contact_info_container {
   width: 100%;
+  padding: 0 20px;
+  margin-bottom: 20px;
 }
 .contact svg {
   width: 20px;
@@ -886,7 +887,7 @@ main .banner.contact_banner {
   position: absolute;
   top: 2.5rem;
   left: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: var(--secondary-font-color);
   transition: ease all 0.3s;
 }
@@ -895,7 +896,7 @@ main .banner.contact_banner {
   height: 70%;
   padding: 1.6rem 1.6rem 0 1.6rem;
   margin-top: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #c5c5c5;
   font-family: var(--main-font);
 }
@@ -905,9 +906,9 @@ main .banner.contact_banner {
 .contact .contact_form_container .contact_form .input_container textarea {
   width: 100%;
   height: 70%;
-  padding: 1.6rem 1.6rem 0 1.6rem;
-  margin-top: 1.5rem;
-  font-size: 1.6rem;
+  padding: 1.4rem 1.6rem 0 1.6rem;
+  margin-top: 2rem;
+  font-size: 1.4rem;
   color: #c5c5c5;
   font-family: var(--main-font);
 }
@@ -926,10 +927,50 @@ main .banner.contact_banner {
   color: var(--tertiary-font-color);
   font-size: 1.2rem;
 }
-
-
-
-.contact .contact_info_container .map iframe{
-  width: 100px;
+.contact .contact_form_container .contact_form .submit_bttn {
+  width: 100%;
   height: 50px;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: var(--main-font);
+  background-color: var(--tertiary-font-color);
+  color: white;
+}
+
+.contact .contact_info_container h4 {
+  color: var(--extra-color);
+  font-size: 1.8rem;
+  margin: 10px 0 30px 0;
+}
+.contact .contact_info_container .contact_link_list {
+  font-size: 1.6rem;
+  width: 100%;
+}
+.contact .contact_info_container .contact_link_list .contact_link{
+  margin-bottom: 30px;
+}
+.contact .contact_info_container .contact_link_list a {
+  color: var(--extra-color);
+  font-weight: 500;
+  font-family: var(--main-font);
+  line-height: 30px;
+}
+.contact .contact_info_container .contact_link_list a svg {
+  margin-right: 10px;
+}
+.contact .contact_info_container .map iframe{
+  width: 100%;
+  height: 300px;
+}
+.contact .contact_info_container .social_media_contact{
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+}
+.contact .contact_info_container .social_media_contact a{
+  margin-right: 20px;
+}
+.contact .contact_info_container .social_media_contact a svg{
+  color: var(--tertiary-font-color);
 }
