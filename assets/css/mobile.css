@@ -817,6 +817,9 @@ main .whatsapp-btn img{
 main .banner.contact_banner .banner_img {
   background-image: url('../img/contact_banner.jpg');
 }
+main .banner.contact_banner .banner_img .banner_title{
+  text-transform: uppercase;
+}
 main .banner.contact_banner {
   height: 350px;
   margin-bottom: 0px;
@@ -877,6 +880,9 @@ main .banner.contact_banner {
   margin: 10px 0;
   position: relative;
 }
+.contact .contact_form_container .contact_form .input_container.error{
+  border: 1px solid red;
+}
 .contact .contact_form_container .contact_form .input_container:focus-within {
   border: 1px solid #65af98;
 }
@@ -927,6 +933,11 @@ main .banner.contact_banner {
   color: var(--tertiary-font-color);
   font-size: 1.2rem;
 }
+.contact .contact_form_container .contact_form .input_container .text_included {
+  top: 1rem;
+  color: var(--tertiary-font-color);
+  font-size: 1.2rem;
+}
 .contact .contact_form_container .contact_form .submit_bttn {
   width: 100%;
   height: 50px;
@@ -935,6 +946,11 @@ main .banner.contact_banner {
   font-weight: 600;
   font-family: var(--main-font);
   background-color: var(--tertiary-font-color);
+  color: white;
+  cursor: pointer;
+}
+.contact .contact_form_container .contact_form .submit_bttn:hover {
+  background-color: var(--extra-color);
   color: white;
 }
 
@@ -956,6 +972,10 @@ main .banner.contact_banner {
   font-family: var(--main-font);
   line-height: 30px;
 }
+.contact .contact_info_container .contact_link_list a:hover {
+  color: var(--tertiary-font-color);
+  transition: ease all 0.2s;
+}
 .contact .contact_info_container .contact_link_list a svg {
   margin-right: 10px;
 }
@@ -973,4 +993,12 @@ main .banner.contact_banner {
 }
 .contact .contact_info_container .social_media_contact a svg{
   color: var(--tertiary-font-color);
+}
+
+.contact .error_message {
+  color: red;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: none;
+  margin-bottom: 20px;
 }
