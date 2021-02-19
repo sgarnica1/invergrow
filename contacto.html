@@ -80,20 +80,98 @@
         <h1 class="banner_title">Contáctanos</h1>
       </div>
     </section>
-    <!-- <section class="contact">
-      <div class="contact_form">
-        <form action="POST">
-          <div class="input_container">
-            <label for="name">Name</label>
-            <input type="text" id="name">
-          </div>
-        </form>
-      </div>
-      <div class="contact_info"></div>
-    </section> -->
-    <!-- <section>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3733.5900342800624!2d-100.3104315857614!3d20.645560806126763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCircuito%20Azaleas%201200-A%20int.%2067%20Residencial%20Zizana%20El%20Marqu%C3%A9s%2C%20Quer%C3%A9taro!5e0!3m2!1ses-419!2smx!4v1613514865827!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </section> -->
+
+    <!--CONTACT FORM-->
+    <section class="contact">
+      <section class="contact_form_container">
+        <div class="contact_form_title_container">
+          <h2 class="contact_form_title">¿Cómo podemos ayudarte?</h2>
+          <p class="contact_form_description">Ponemos a tu disposición nuestro formulario de contacto, teléfono y correo electrónico para que te comuniques con nosotros para cualquier duda o cotización.<br></p>
+          <p class="contact_form_description">Si quieres saber más sobre nosotros puedes también seguirnos en nuestras redes sociales.</p>
+        </div>
+        <div class="contact_form">
+          <form action="contact.php" method="post">
+            <div class="input_container">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Nombre</label>
+            </div>
+            <div class="input_container">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Correo electrónico</label>
+            </div>
+            <div class="input_container">
+              <input type="number" id="phone" name="phone" required>
+              <label for="phone">Número telefónico</label>
+            </div>
+            <div class="input_container">
+              <input type="text" id="subject" name="subject" required>
+              <label for="subject">Asunto</label>
+            </div>
+            <div class="input_container textarea">
+              <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+              <label for="message">¿Cómo podemos ayudarte?</label>
+            </div>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </section>
+      <section class="contact_info_container">
+        <h4>Contáctanos</h4>
+        <ul class="contact_link_list">
+          <li class="contact_link whatsapp">
+            <a href="#">
+              <svg width="448" height="512" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32C101.5 32 1.9 131.6 1.9 254C1.9 293.1 12.1 331.3 31.5 365L0 480L117.7 449.1C150.1 466.8 186.6 476.1 223.8 476.1H223.9C346.2 476.1 448 376.5 448 254.1C448 194.8 422.8 139.1 380.9 97.1V97.1ZM223.9 438.7C190.7 438.7 158.2 429.8 129.9 413L123.2 409L53.4 427.3L72 359.2L67.6 352.2C49.1 322.8 39.4 288.9 39.4 254C39.4 152.3 122.2 69.5 224 69.5C273.3 69.5 319.6 88.7 354.4 123.6C389.2 158.5 410.6 204.8 410.5 254.1C410.5 355.9 325.6 438.7 223.9 438.7V438.7ZM325.1 300.5C319.6 297.7 292.3 284.3 287.2 282.5C282.1 280.6 278.4 279.7 274.7 285.3C271 290.9 260.4 303.3 257.1 307.1C253.9 310.8 250.6 311.3 245.1 308.5C212.5 292.2 191.1 279.4 169.6 242.5C163.9 232.7 175.3 233.4 185.9 212.2C187.7 208.5 186.8 205.3 185.4 202.5C184 199.7 172.9 172.4 168.3 161.3C163.8 150.5 159.2 152 155.8 151.8C152.6 151.6 148.9 151.6 145.2 151.6C141.5 151.6 135.5 153 130.4 158.5C125.3 164.1 111 177.5 111 204.8C111 232.1 130.9 258.5 133.6 262.2C136.4 265.9 172.7 321.9 228.4 346C263.6 361.2 277.4 362.5 295 359.9C305.7 358.3 327.8 346.5 332.4 333.5C337 320.5 337 309.4 335.6 307.1C334.3 304.6 330.6 303.2 325.1 300.5Z" fill="#333333"/>
+              </svg> 442.439.6065
+            </a>
+          </li>
+          <li class="contact_link phone">
+            <a href="#">
+              <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                <path d="M497.39 361.8L385.39 313.8C380.605 311.761 375.288 311.331 370.238 312.576C365.188 313.82 360.679 316.671 357.39 320.7L307.79 381.3C229.947 344.598 167.302 281.953 130.6 204.11L191.2 154.51C195.237 151.227 198.094 146.718 199.339 141.665C200.584 136.613 200.149 131.293 198.1 126.51L150.1 14.51C147.851 9.35405 143.874 5.14442 138.854 2.60695C133.833 0.0694847 128.085 -0.636772 122.6 0.609966L18.6 24.61C13.3117 25.8311 8.59345 28.8088 5.21535 33.0568C1.83725 37.3049 -0.00121821 42.5725 6.05621e-07 48C6.05621e-07 304.5 207.9 512 464 512C469.429 512.003 474.699 510.166 478.949 506.788C483.199 503.409 486.178 498.69 487.4 493.4L511.4 389.4C512.639 383.888 511.917 378.117 509.36 373.079C506.803 368.042 502.57 364.053 497.39 361.8V361.8Z" fill="#333333"/>
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="512" height="512" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg> 442.439.6065
+            </a>
+          </li>
+          <li class="contact_link email">
+            <a href="#">
+              <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M502.3 190.8C506.2 187.7 512 190.6 512 195.5V400C512 426.5 490.5 448 464 448H48C21.5 448 0 426.5 0 400V195.6C0 190.6 5.7 187.8 9.7 190.9C32.1 208.3 61.8 230.4 163.8 304.5C184.9 319.9 220.5 352.3 256 352.1C291.7 352.4 328 319.3 348.3 304.5C450.3 230.4 479.9 208.2 502.3 190.8ZM256 320C279.2 320.4 312.6 290.8 329.4 278.6C462.1 182.3 472.2 173.9 502.8 149.9C508.6 145.4 512 138.4 512 131V112C512 85.5 490.5 64 464 64H48C21.5 64 0 85.5 0 112V131C0 138.4 3.4 145.3 9.2 149.9C39.8 173.8 49.9 182.3 182.6 278.6C199.4 290.8 232.8 320.4 256 320Z" fill="#333333"/>
+              </svg>
+              hola@parainvernaderos.mx
+            </a>
+          </li>
+          <li class="contact_link location">
+            <a href="#">
+              <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/></g>
+              </svg>
+              Circuito Azaleas 1200-A int. 67 Residencial Zizana. El Marqués, Querétaro.
+            </a>
+          </li>
+        </ul>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3733.5900342800624!2d-100.3104315857614!3d20.645560806126763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCircuito%20Azaleas%201200-A%20int.%2067%20Residencial%20Zizana%20El%20Marqu%C3%A9s%2C%20Quer%C3%A9taro!5e0!3m2!1ses-419!2smx!4v1613514865827!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <ul class="social_media_contact">
+          <li class="social_media_link fb">
+            <a href="#">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+            </a>
+          </li>
+          <li class="social_media_link ig">
+            <a href="#">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
 
   </main>
 
