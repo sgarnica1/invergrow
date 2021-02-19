@@ -1002,3 +1002,10 @@ main .banner.contact_banner {
   display: none;
   margin-bottom: 20px;
 }
+.contact .success_message {
+  color: green;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: none;
+  margin-bottom: 20px;
+}
