@@ -22,13 +22,12 @@ html {
 
 .landing_main_banner {
   width: 100%;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  min-height: 630px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   align-items: center;
-  padding: 10px 30px;
-  /* background-color: black; */
+  padding: 100px 30px 10px 30px;
   background-image: url('../../img/cat_ban_1.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -42,6 +41,7 @@ html {
   margin: 15px 0 20px 0;
   position: absolute;
   top: 10px;
+  left: calc(50% - 130px);
 }
 .landing_main_banner h2 {
   text-align: center;
@@ -72,10 +72,28 @@ html {
   font-size: 1.6rem;
   font-weight: 500;
 }
-.landing_main_banner .landing_img_1 {
-  width: 500px;
+.landing_main_banner .landing_main_banner-img {
+  justify-self: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.landing_main_banner .landing_main_banner-img .landing_img_1 {
+  width: 80%;
   height: auto;
-  position: absolute;
-  bottom: -230px;
-  left: calc(50% - 250px);
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: unset;
+  left: unset;
+}
+
+.landing_main_info {
+  width: 100%;
+  padding: 30px 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

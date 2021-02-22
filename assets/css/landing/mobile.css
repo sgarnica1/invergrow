@@ -35,26 +35,33 @@ html {
   background-size: cover;
   position: relative;
 }
-.landing_main_banner img {
+.landing_main_banner-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landing_main_banner-info img {
   height: 80px;
   width: auto;
   margin: 15px 0 20px 0;
 }
-.landing_main_banner h2 {
+.landing_main_banner-info h2 {
   text-align: center;
   font-weight: 600;
   font-size: 3rem;
   margin-bottom: 30px ;
   color: white;
 }
-.landing_main_banner h4 {
+.landing_main_banner-info h4 {
   text-align: center;
   font-weight: 400;
   font-size: 1.6rem;
   margin-bottom: 10px;
   color: var(--main-color);
 }
-.landing_main_banner a {
+.landing_main_banner-info a {
   background-color: #4ecca3;
   width: 200px;
   height: 50px;
@@ -68,7 +75,7 @@ html {
   font-size: 1.6rem;
   font-weight: 500;
 }
-.landing_main_banner .landing_img_1 {
+.landing_main_banner-img .landing_img_1 {
   width: 280px;
   height: auto;
   position: absolute;
