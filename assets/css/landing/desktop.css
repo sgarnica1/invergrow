@@ -28,7 +28,7 @@ html {
   grid-template-rows: 1fr;
   align-items: center;
   padding: 100px 30px 10px 30px;
-  background-image: url('../../img/cat_ban_1.jpg');
+  background-image: url('../../img/landing/landing_banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

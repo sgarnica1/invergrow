@@ -29,7 +29,7 @@ html {
   align-items: center;
   padding: 10px 30px;
   /* background-color: black; */
-  background-image: url('../../img/cat_ban_1.jpg');
+  background-image: url('../../img/landing/landing_banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,6 +249,7 @@ main .landing_categories .landing_categories_cards .cat3 {
   color: white;
   font-weight: 500;
   font-size: 1.8rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
 .landing_footer_content {
