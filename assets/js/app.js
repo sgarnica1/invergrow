@@ -192,6 +192,9 @@ function isInViewport(element) {
 const catTitles = document.querySelectorAll('.product_cat_title');
 document.addEventListener('scroll', () => {
   for(let el of catTitles) {
+    if(el == catTitles[0]) {
+      continue
+    }
     if(isInViewport(el) == true) {
       el.classList.add('slide')
     }
