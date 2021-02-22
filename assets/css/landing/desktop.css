@@ -91,9 +91,38 @@ html {
 
 .landing_main_info {
   width: 100%;
-  padding: 30px 30px 20px 30px;
+  padding: 40px 10% 20px 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+.landing_main_info-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  /* padding-left: 20px; */
+}
+.landing_main_info-info h2{
+  text-align: left;
+  font-size: 4rem;
+}
+.landing_main_info-info .arrow-down_landing {
+  height: auto;
+  width: 40px;
+}
+
+.landing_categories {
+  margin-top: 20px;
+}
+.landing_categories .landing_categories_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  padding: 20px 100px;
+  margin-bottom: 30px;
+}
+main .landing_categories .landing_categories_cards .cat3 {
+  margin: 10px 0; 
 }
