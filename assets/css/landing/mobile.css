@@ -1,0 +1,248 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --main-color: #EEEEEE;
+  --secondary-color: #e2e2e2;
+  --main-font-color: #333333;
+  --secondary-font-color: #7A7A7A;
+  --tertiary-font-color: #7FD9BD;
+  --extra-color: #4c4c4c;
+  --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
+}
+
+.landing_main_banner {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  /* background-color: black; */
+  background-image: url('../../img/cat_ban_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.landing_main_banner img {
+  height: 80px;
+  width: auto;
+  margin: 15px 0 20px 0;
+}
+.landing_main_banner h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 30px ;
+  color: white;
+}
+.landing_main_banner h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: var(--main-color);
+}
+.landing_main_banner a {
+  background-color: #4ecca3;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 30px;
+  outline: none;
+  margin: 20px 0 100px 0;
+  color: white;
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.landing_main_banner .landing_img_1 {
+  width: 280px;
+  height: auto;
+  position: absolute;
+  bottom: -180px;
+  left: calc(50% - 140px);
+}
+
+.landing_main_info {
+  width: 100%;
+  padding: 180px 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing_main_info h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--main-font-color);
+  text-align: center;
+}
+.landing_main_info ol {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.landing_main_info ol li {
+  color: var(--extra-color);
+  font-size: 1.8rem;
+  text-align: left;
+  font-weight: 500;
+  line-height: 40px;
+}
+.landing_main_info .arrow-down_landing {
+  height: 40px;
+  width: auto;
+  margin-bottom: 20px;
+  animation: bounce 1.5s infinite linear;
+}
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(10px);}
+  100% {transform: translateY(0);}
+}
+.landing_main_info video {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.landing_categories {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.landing_categories .landing_categories_title {
+  font-size: 2.6rem;
+  color: var(--extra-color);
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.landing_categories .landing_categories_cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main .landing_categories .landing_categories_card {
+  width: 90%;
+  height: 120px;
+  padding: 5px; 
+  text-align: center;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.landing_categories_card h4 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 5px 0;
+  letter-spacing: 2px;
+}
+.landing_categories_card a {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  transition: ease-in-out all 0.5s;
+  letter-spacing: 2px;
+}
+.landing_categories_card a:hover {
+  text-decoration: underline;
+  transition: ease-in-out all 0.5s;
+}
+main .landing_categories .landing_categories_cards .cat1 {
+  background-image: url('../../img/cat_1_dt.jpg');
+}
+main .landing_categories .landing_categories_cards .cat2 {
+  background-image: url('../../img/cat_2_dt.jpg');
+}
+main .landing_categories .landing_categories_cards .cat3 {
+  background-image: url('../../img/cat_3_dt.jpg');
+  margin-bottom: 30px;
+}
+
+.landing_contact_banner {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+.landing_contact_banner h2 {
+  color: var(--extra-color);
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.landing_contact_banner a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  background-color: var(--tertiary-font-color);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.landing_contact_banner a span {
+  display: inline-block;
+  background-image: url('../../icon/whatsapp_2.svg');
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.landing_contact_banner a h4 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.landing_footer_content {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing_footer_copywright p{
+  font-size: 1.2rem;
+  text-align: center;
+}

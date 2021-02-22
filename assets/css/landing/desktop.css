@@ -1,0 +1,81 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --main-color: #EEEEEE;
+  --secondary-color: #e2e2e2;
+  --main-font-color: #333333;
+  --secondary-font-color: #7A7A7A;
+  --tertiary-font-color: #7FD9BD;
+  --extra-color: #4c4c4c;
+  --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
+}
+
+.landing_main_banner {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  /* background-color: black; */
+  background-image: url('../../img/cat_ban_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.landing_main_banner .landing_logo {
+  height: 100px;
+  width: auto;
+  margin: 15px 0 20px 0;
+  position: absolute;
+  top: 10px;
+}
+.landing_main_banner h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-top: 100px;
+  margin-bottom: 30px ;
+  color: white;
+}
+.landing_main_banner h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--main-color);
+}
+.landing_main_banner a {
+  background-color: #4ecca3;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 30px;
+  outline: none;
+  margin: 20px 0 100px 0;
+  color: white;
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.landing_main_banner .landing_img_1 {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: -180px;
+  left: calc(50% - 140px);
+}
