@@ -207,7 +207,7 @@ main .landing_categories .landing_categories_cards .cat3 {
 
 .landing_contact_banner {
   width: 100%;
-  min-height: 300px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -228,22 +228,35 @@ main .landing_categories .landing_categories_cards .cat3 {
   align-items: center;
   width: 250px;
   height: 60px;
-  background-color: var(--tertiary-font-color);
   border-radius: 30px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .landing_contact_banner a:hover {
   background-color: var(--extra-color);
 }
+.landing_contact_banner a.contact_btn-wa {
+  background-color: var(--tertiary-font-color);
+}
+.landing_contact_banner a.contact_btn-phone {
+  background-color: rgb(13, 175, 13);
+}
 .landing_contact_banner a span {
   display: inline-block;
-  background-image: url('../../img/landing/whatsapp_icon.svg');
-  width: 40px;
-  height: 40px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+}
+.landing_contact_banner a.contact_btn-wa span {
+  background-image: url('../../img/landing/whatsapp_icon.svg');
+  width: 40px;
+  height: 40px;
+}
+.landing_contact_banner a.contact_btn-phone span {
+  background-image: url('../../img/landing/phone_icon.svg');
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
 }
 .landing_contact_banner a h4 {
   color: white;
