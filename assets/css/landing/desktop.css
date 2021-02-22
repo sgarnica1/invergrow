@@ -72,12 +72,18 @@ html {
   font-size: 1.6rem;
   font-weight: 500;
 }
+.landing_main_banner a:hover {
+  background-color: var(--extra-color);
+  transform: translateY(-3px);
+  transition: linear 0.2s;
+}
 .landing_main_banner .landing_main_banner-img {
   justify-self: center;
   width: 100%;
   display: flex;
   align-items: center;
   justify-self: center;
+  animation: bounce 4s infinite linear;
 }
 .landing_main_banner .landing_main_banner-img .landing_img_1 {
   width: 80%;
@@ -102,11 +108,14 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* padding-left: 20px; */
 }
 .landing_main_info-info h2{
   text-align: left;
   font-size: 4rem;
+}
+.landing_main_info-info ol li {
+  font-size: 2.4rem;
+  line-height: 50px;
 }
 .landing_main_info-info .arrow-down_landing {
   height: auto;
@@ -116,13 +125,24 @@ html {
 .landing_categories {
   margin-top: 20px;
 }
+.landing_categories .landing_categories_title h3{
+  font-size: 4rem;
+}
 .landing_categories .landing_categories_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  padding: 20px 100px;
+  padding: 20px 50px;
   margin-bottom: 30px;
 }
 main .landing_categories .landing_categories_cards .cat3 {
   margin: 10px 0; 
+}
+
+.landing_contact_banner h2 {
+  font-size: 3rem;
+}
+.landing_contact_banner a:hover {
+  transform: translateY(-3px);
+  transition: linear 0.2s;
 }
