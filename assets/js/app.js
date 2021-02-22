@@ -16,7 +16,8 @@ const ig = document.querySelector('.instagram');
 
 const carouselBttnNextPrev = document.querySelectorAll('.carousel_bttn');
 const carouselBttnNextPrevMoreImgs = document.querySelectorAll('.carousel_bttn_moreimgs');
-const prodcutImg = document.querySelectorAll('.product_img')
+const prodcutImg = document.querySelectorAll('.product_img');
+
 
 
 window.onscroll = () => {
@@ -176,34 +177,43 @@ const changeCarouselProductImg = () => {
 }
 changeCarouselProductImg();
 
-const changeCarouselProductImgThreeOrMore = () => {
+//Category title animations 
 
-  for(let bttn of carouselBttnNextPrevMoreImgs) {
-    bttn.addEventListener('click', () => {
-      const imgs = bttn.parentElement.children[1].children;
-      let amountOfImgs = imgs.length;
-      let hideImg = 0;
-      let showImg = 0;
-      while(hideImg < amountOfImgs -1  && showImg < amountOfImgs) {
-        showImg++;
-        if(imgs[hideImg].className.includes('img_front')) {
-          imgs[hideImg].classList.remove('img_front');
-          imgs[hideImg].classList.add('img_back');
-        }
-        if (imgs[showImg].className.includes('img_back')) {
-          imgs[showImg].classList.add('img_front');
-          imgs[showImg].classList.remove('img_back')
-        }
-      }
-
-      // if(hideImg === amountOfImgs -1  && showImg === amountOfImgs) {
-      //   console.log(imgs[showImg].className)
-      //   hideImg = 0;
-      //   showImg = 1;
-      //   console.log(hideImg)
-      //   return
-      // }
-    })
-  }
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
 }
-// changeCarouselProductImgThreeOrMore()
+
+const catTitles = document.querySelectorAll('.product_cat_title');
+document.addEventListener('scroll', () => {
+  for(let el of catTitles) {
+    if(isInViewport(el) == true) {
+      el.classList.add('slide')
+    }
+  }
+})
+
+
+
+
+
+
+
+//Close mobile menu when 'nosotros' is clicked
+const navElementNosotros = document.querySelector('.nosotros_link');
+navElementNosotros.addEventListener('click', () => {
+  nav.classList.remove('active');
+  subMenu.classList.add('hide');
+  fb.style.display = "inline-block";
+  ig.style.display = "inline-block";
+  document.body.classList.remove('block-scroll');
+  if (this.scrollY > 150) {
+    showBttns();
+  }
+})
+

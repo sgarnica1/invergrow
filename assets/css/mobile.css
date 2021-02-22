@@ -176,7 +176,6 @@ header .navbar {
   align-items: center;
 }
 .navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu li {
-  /* border-bottom: 1px solid var(--secondary-font-color); */
   width: 100%;
   padding-left: 0px;
 }
@@ -269,7 +268,7 @@ main .banner.banner_categorias .banner_img p{
   font-weight: 600;
   font-family: var(--main-font);
   color: white;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6); */
 }
 .banner .banner_bttn:hover {
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
@@ -1009,3 +1008,133 @@ main .banner.contact_banner {
   display: none;
   margin-bottom: 20px;
 }
+
+
+/*--ERROR 404--*/
+.error_404_container {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/hero_background_img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.error_404_container .error_404_title {
+  color: white;
+  font-size: 8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.error_404_container .error_404_message {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.error_404_container .error_404_btn {
+  color: white;
+  border: 1px solid var(--tertiary-font-color);
+  font-weight: 500;
+  min-width: 200px;
+  height: 60px;
+  padding: 20px;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.error_404_container .error_404_btn:hover {
+  background-color: var(--tertiary-font-color);
+}
+
+/*--PRIVACY POLITICS--*/
+.privacy_politics_banner {
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/hero_background_img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.privacy_politics_banner .privacy_politics_title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.privacy_politics_banner .privacy_politics_divider {
+  border: 1px solid var(--tertiary-font-color);
+  width: 100px;
+}
+
+.privacy_politics_info {
+  width: 100%;
+  min-height: 500px;
+  padding: 40px 30px;
+}
+.privacy_politics_info .privacy_politics_message {
+  color: var(--extra-color);
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.privacy_politics_info .privacy_politics_text {
+  color: var(--extra-color);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  text-align: justify;
+  line-height: 30px;
+}
+.privacy_politics_info .privacy_politics_list {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.privacy_politics_info .privacy_politics_list-element {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+
+/*--ANIMATIONS--*/
+.category_description_img{
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: linear;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+main .product_grid .product_grid_cat .product_cat_title.slide{
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-name: slide-left;
+  animation-timing-function: linear;
+}
+
+@keyframes slide-left  {
+  0%   { transform: translateX(-300px); }
+  100% { transform: translateX(0); }
+} 
+

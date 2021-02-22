@@ -154,7 +154,6 @@ main .banner {
 
 .banner .banner_bttn {
   padding: 15px 50px;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
   font-size: 2rem;
   font-weight: 600;
 }
@@ -460,7 +459,7 @@ main .whatsapp-btn img{
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
-  z-index: 5;
+  z-index: 15;
   top: 0;
   left: 0;
   display: flex; 
@@ -528,3 +527,29 @@ main .banner.contact_banner .banner_title {
   color: #c5c5c5;
   font-family: var(--main-font);
 }
+
+/*--ERROR 404--*/
+.error_404_container .error_404_title {
+  font-size: 12rem;
+}
+.error_404_container .error_404_message {
+  font-size: 2.6rem;
+}
+
+/*--PRIVACY POLITICS--*/
+.privacy_politics_banner .privacy_politics_title {
+  font-size: 3.6rem;
+}
+
+.privacy_politics_info {
+  width: 100%;
+  min-height: 500px;
+  padding: 40px 200px;
+}
+.privacy_politics_info .privacy_politics_message {
+  font-size: 2.6rem;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+
