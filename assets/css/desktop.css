@@ -19,7 +19,6 @@ html {
   --main-font: 'Montserrat', sans-serif;
   --secondary-font: 'Poppins', sans-serif;
 }
-
 .icon {
   display: none;
 }
@@ -263,6 +262,10 @@ main .categories .categories_card:hover {
   cursor: pointer;
   width: 180px;
   text-align: center;
+}
+.categories_description .category_description a:focus {
+  border: 2px solid white;
+  outline: 2px solid black;
 }
 
 .categories_description .category_description .description_button_1 {

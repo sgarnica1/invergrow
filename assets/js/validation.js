@@ -83,13 +83,19 @@ const validation = () => {
     }
     console.log('Sending...')
     successMsg.style.display = 'inline-block';
+    const form = document.querySelector('form');
+    form.classList.remove('prevent')
   }
 }
 
 
 submit.addEventListener('click', (event) => {
-  event.preventDefault();
   validation();
+
+  const form = document.querySelector('form')
+  if(form.className.includes('prevent')) {
+    event.preventDefault();
+  }
 })
 
 

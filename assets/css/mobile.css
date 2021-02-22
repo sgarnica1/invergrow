@@ -276,6 +276,10 @@ main .banner.banner_categorias .banner_img p{
   background-color: #6bb69e;
   color: white;
 }
+.banner .banner_bttn:focus {
+  border: 2px solid white;
+  outline: 2px solid black;
+}
 .banner .banner_text {
   width: 80%;
   height: 50px;
