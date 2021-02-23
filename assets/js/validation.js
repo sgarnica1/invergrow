@@ -11,6 +11,7 @@ const subjectInput = document.getElementById('subject');
 const submit = document.getElementById('submit_bttn');
 const errorMsg = document.querySelector('.error_message');
 const successMsg = document.querySelector('.success_message');
+const form = document.querySelector('form');
 
 const emailInputContainer = document.querySelector('.input_container.email');
 
@@ -89,14 +90,14 @@ const validation = () => {
 }
 
 
-submit.addEventListener('click', (event) => {
-  validation();
+// form.addEventListener('submit', (event) => {
+//   validation();
 
-  const form = document.querySelector('form')
-  if(form.className.includes('prevent')) {
-    event.preventDefault();
-  }
-})
+//   const form = document.querySelector('form')
+//   if(form.className.includes('prevent')) {
+//     event.preventDefault();
+//   }
+// })
 
 
 
