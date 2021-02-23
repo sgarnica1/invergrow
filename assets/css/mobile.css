@@ -1116,6 +1116,50 @@ main .banner.contact_banner {
   text-align: justify;
 }
 
+/*--SUCCESS--*/
+.success_container {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/hero_background_img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.success_container .success_title {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.success_container .success_message {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.success_container .success_btn {
+  color: white;
+  border: 1px solid var(--tertiary-font-color);
+  font-weight: 500;
+  min-width: 200px;
+  height: 60px;
+  padding: 20px;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.success_container .success_btn:hover {
+  background-color: var(--tertiary-font-color);
+}
+
 
 /*--ANIMATIONS--*/
 .category_description_img{

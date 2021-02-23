@@ -24,7 +24,7 @@
 
   <!--SCRIPTS-->
   <script defer src="./assets/js/app.js"></script>
-  <script defer src="./assets/js/validation_2.js"></script>
+  <script defer src="./assets/js/validation.js"></script>
 </head>
 <body>
   <!--HEADER-->
@@ -91,25 +91,25 @@
           <p class="contact_form_description">Si quieres saber más sobre nosotros puedes también seguirnos en nuestras redes sociales.</p>
         </div>
         <div class="contact_form">
-          <form action="./assets/php/contact.php" method="POST" onsubmit="return validation()">
+          <form action="./assets/php/contact.php" method="POST" novalidate onsubmit="return validation()">
             <div class="input_container">
-              <input type="text" id="name" name="name">
+              <input type="text" id="name" name="name" required>
               <label for="name">Nombre</label>
             </div>
             <div class="input_container email">
-              <input type="email" id="email" name="email" >
+              <input type="email" id="email" name="email" required>
               <label for="email">Correo electrónico</label>
             </div>
             <div class="input_container">
-              <input type="number" id="phone" name="phone">
+              <input type="number" id="phone" name="phone" required>
               <label for="phone">Número telefónico</label>
             </div>
             <div class="input_container">
-              <input type="text" id="subject" name="subject">
+              <input type="text" id="subject" name="subject" required>
               <label for="subject">Asunto</label>
             </div>
             <div class="input_container textarea">
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" required></textarea>
               <label for="message">¿Cómo podemos ayudarte?</label>
             </div>
             <span class="error_message">Uno o más campos son inválidos. Por favor revísalos e intenta de nuevo</span>

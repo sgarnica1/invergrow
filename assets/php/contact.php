@@ -20,6 +20,6 @@ $header .= 'Reply to: noreply@parainvernaderos.mx';
 
 
 mail($destinatario, $asunto, $cuerpoMensaje, $header);
-header('Location:../../index.html');
+header('Location:../../mensaje-enviado.html');
 
 ?>
