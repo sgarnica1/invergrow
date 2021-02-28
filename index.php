@@ -19,7 +19,7 @@
     <!--CATEGORIES CARDS-->
     <section class="categories" id="categories">
       <div class="categories_title">
-        <h3>Conoce nuestras categorías</h3>
+        <h2>Conoce nuestras categorías</h2>
       </div>
       <section class="categories_cards">
         <div class="categories_card cat1">
