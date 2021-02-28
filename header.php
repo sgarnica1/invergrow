@@ -2,6 +2,7 @@
 /**
  * Main Header
 */
+  include 'header-values.php'
 ?>
 
 <!DOCTYPE html>
@@ -9,9 +10,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Invergrow. Soluciones agrícolas, soluciones de excelencia. Encuentra con nosotros todo lo que necesitas, desde insumos para invernadero y sistemas de riego y accesorios, hasta tractores y maquinaria agrícloca.">
-  <meta name="robots" content="index, follow" />
-  <title>Invergrow | Soluciones agrícolas</title>
+  <meta name="description" content="<?php echo $description; ?>">
+  <meta name="robots" content="<?php echo $should_index?>"/>
+  <meta property="og:title" content="<?php echo $ruta; ?>">
+  <meta property="og:image" content="https://parainvernaderos.mx/assets/logo/invergrow_logo_recortado.png">
+  <meta property="og:url" content="https://parainvernaderos.mx/">
+  <meta property="og:description" content="<?php echo $description; ?>">
+  <title><?php echo $ruta; ?></title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">
@@ -31,6 +36,7 @@
   <!--SCRIPTS-->
   <script defer src="./assets/js/app.js"></script>
   <script defer src="./assets/js/products.js"></script>
+
 </head>
 <body>
 
@@ -57,10 +63,10 @@
         <li class="navbar_list_item navbar_item"><a href="./#nosotros" class="nosotros_link">Nosotros</a></li>
         <li class="navbar_list_item navbar_item"><a href="./contacto">Contacto</a></li>
         <li class="navbar_list_item navbar_item"><a href="./assets/catalog/catalogo_invergrow.pdf" target="_blank" download="Catálogo Invergrow 2021">Descargar catálogo</a></li>
-        <div class="mobile_nav_social_media">
+        <li class="mobile_nav_social_media">
           <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook social_media_nav"></a>
           <a href="https://www.instagram.com/inver.grow/" target="_blank" class="instagram  "></a>
-        </div>
+        </li>
       </ul>
       <div class="icon menu-btn">
         <span></span>
