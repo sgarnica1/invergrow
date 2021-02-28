@@ -19,7 +19,6 @@ const carouselBttnNextPrevMoreImgs = document.querySelectorAll('.carousel_bttn_m
 const prodcutImg = document.querySelectorAll('.product_img');
 
 
-
 window.onscroll = () => {
   // this.scrollY > 20 ? header.classList.add('sticky') : header.classList.remove('sticky')
   if(this.scrollY > 20) {
@@ -219,4 +218,5 @@ navElementNosotros.addEventListener('click', () => {
     showBttns();
   }
 })
+
 

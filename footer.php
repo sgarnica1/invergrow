@@ -10,11 +10,11 @@
         <h3>Contáctanos</h3>
         <div class="footer_contact_link">
           <span class="contact_link--whatsapp"></span>
-          <a href="https://wa.link/hyuyal" id="link" target="_blank">442.123.4567</a>
+          <a href="https://wa.link/hyuyal" id="link" target="_blank">442.124.97.83</a>
         </div>
         <div class="footer_contact_link">
           <span class="contact_link--phone"></span>
-          <a href="tel:4421249783">442.123.4567</a>
+          <a href="tel:4421249783">442.124.97.83</a>
         </div>
         <div class="footer_contact_link">
           <span class="contact_link--email"></span>

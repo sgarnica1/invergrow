@@ -27,10 +27,10 @@
         <img src="./assets/img/products/insumos/1.jpg" alt="#">
       </div>
       <section class="product_grid_cat product_grid_cat-1 product_insumos">
-        <div class="product_cat_title slide">
-          <h3>Clips tutoreo</h3>
+        <div class="product_cat_title">
+          <h3>Clip para tutoreo</h3>
         </div>
-        <section class="product_list">
+        <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
               <span></span>
@@ -41,32 +41,80 @@
             </div>
             <div class="product_info">
               <h4 class="product_title">Clip para tutoreo</h4>
-              <p class="product_description">(23 milímetros) Fácil de cerrar, seguro y mejorado</p>
+              <p class="product_description">Reutilizable y resistente</p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-2 product_insumos">
+        <div class="product_cat_title">
+          <h3>Rafia y ganchos para tutoreo</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+              <span class="bttn-prev_img carousel_bttn"></span>
+              <div class="product_img">
+                <img src="./assets/img/products/insumos/9.jpg" alt="Rafia y ganchos para tutoreo" class="img_front">
+                <img src="./assets/img/products/insumos/22.jpg" alt="Rafia y ganchos para tutoreo" class="img_back">
+              </div>
+              <span class="bttn-next_img carousel_bttn"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Rafia y ganchos para tutoreo</h4>
+              <p class="product_description">Rafia Anti- Rayos UV<br><br>Gancho holandés con rafia o sin rafia.</p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-3 product_insumos">
+        <div class="product_cat_title">
+          <h3>Tensor de rafia</h3>
+        </div>
+        <section class="product_list single_product_list">
+        <article class="product_element">
+            <div class="product_img_container">
+              <span></span>
+              <div class="product_img">
+                <img src="./assets/img/products/insumos/4.jpg" alt="Tensor de rafia" class="img_front">
+              </div>
+              <span></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Tensor de rafia</h4>
+              <p class="product_description"></p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-4 product_insumos">
+        <div class="product_cat_title slide">
+          <h3>Truss suport</h3>
+        </div>
+        <section class="product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+              <span></span>
+              <div class="product_img">
+                <img src="./assets/img/products/insumos/2.jpg" alt="C-Hook" class="img_front">
+              </div>
+              <span></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">C-Hook</h4>
+              <p class="product_description"></p>
             </div>
           </article>
           <article class="product_element">
             <div class="product_img_container">
               <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/2.jpg" alt="Clip para tutoreo media luna" class="img_front">
+                <img src="./assets/img/products/insumos/8.jpg" alt="J-Hook" class="img_front">
               </div>
               <span></span>
             </div>
             <div class="product_info">
-              <h4 class="product_title">Clip para tutoreo Media Luna</h4>
-              <p class="product_description">Truss Support Media luna</p>
-            </div>
-          </article>
-          <article class="product_element">
-            <div class="product_img_container">
-              <span></span>
-              <div class="product_img">
-                <img src="./assets/img/products/insumos/8.jpg" alt="Clip para tutoreo media luna" class="img_front">
-              </div>
-              <span></span>
-            </div>
-            <div class="product_info">
-              <h4 class="product_title">Steam Hook</h4>
+              <h4 class="product_title">J-Hook</h4>
               <p class="product_description"></p>
             </div>
           </article>
@@ -100,15 +148,22 @@
             <div class="product_img_container">
               <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/6.jpg" alt="C hook" class="img_front">
+                <img src="./assets/img/products/insumos/6.jpg" alt="C-Hook" class="img_front">
               </div>
               <span></span>
             </div>
             <div class="product_info">
-              <h4 class="product_title">C hook</h4>
+              <h4 class="product_title">C-Hook</h4>
               <p class="product_description"></p>
             </div>
           </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-5 product_insumos">
+        <div class="product_cat_title">
+          <h3>Crafting clips</h3>
+        </div>
+        <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
               <span></span>
@@ -120,40 +175,6 @@
             <div class="product_info">
               <h4 class="product_title">Crafting clips</h4>
               <p class="product_description"></p>
-            </div>
-          </article>
-          <article class="product_element">
-            <div class="product_img_container">
-              <span></span>
-              <div class="product_img">
-                <img src="./assets/img/products/insumos/4.jpg" alt="Tensor de rafia" class="img_front">
-              </div>
-              <span></span>
-            </div>
-            <div class="product_info">
-              <h4 class="product_title">Tensor de rafia</h4>
-              <p class="product_description"></p>
-            </div>
-          </article>
-        </section>
-      </section>
-      <section class="product_grid_cat product_grid_cat-2 product_insumos">
-        <div class="product_cat_title">
-          <h3>Rafia para tutoreo</h3>
-        </div>
-        <section class="product_list single_product_list">
-          <article class="product_element">
-            <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
-              <div class="product_img">
-                <img src="./assets/img/products/insumos/9.jpg" alt="Rafia holandesa" class="img_front">
-                <img src="./assets/img/products/insumos/22.jpg" alt="Rafia holandesa" class="img_back">
-              </div>
-              <span class="bttn-next_img carousel_bttn"></span>
-            </div>
-            <div class="product_info">
-              <h4 class="product_title">Rafia holandesa</h4>
-              <p class="product_description">Gancho holandés con rafia o sin rafia.<br><br>Exento de IVA</p>
             </div>
           </article>
         </section>
@@ -272,7 +293,6 @@
                 <li>Protección de hierbas infestantes</li>
                 <li>Evita contaminación al contacto con el suelo</li>
                 <li>Facilita la alineación de macetas</li>
-                <li>Exento de IVA</li>
               </ul>
             </div>
           </article>
@@ -297,7 +317,6 @@
               <ul class="product_description product_description_list">
                 <li>Mallas anti-afidos marca Arrigoni</li>
                 <li>Mallas anti-insectos de alta tenacidad con alto nivel de transparencia y larga vida</li>
-                <li>Exento de IVA</li>
               </ul>
             </div>
           </article>
@@ -370,7 +389,6 @@
               <ul class="product_description product_description_list">
                 <li>Fibra de coco de primera calidad marca Galuku.</li>
                 <li>Certificación OMRI para productos orgánicos.</li>
-                <li>Exento de IVA.</li>
               </ul>
             </div>
           </article>
@@ -421,7 +439,6 @@
             <div class="product_info">
               <h4 class="product_title">Spacer</h4>
               <ul class="product_description product_description_list">
-                <li>Marca hydroponic systems</li>
                 <li>Hecho en polipropileno</li>
                 <li>Exento de IVA</li>
               </ul>
@@ -525,25 +542,140 @@
           </article>
         </section>
       </section>
-      <section class="product_grid_cat product_grid_cat-15 product_insumos">
-        <div class="product_cat_title">
-          <h3>Pintura</h3>
+      <section class="product_grid_cat product_grid_cat-1 product_sistemas">
+        <div class="product_cat_title slide">
+          <h3>Manerales de riego</h3>
         </div>
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
               <span class="bttn-prev_img carousel_bttn"></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/38.jpg" alt="Pintura" class="img_front">
-                <img src="./assets/img/products/insumos/39.jpg" alt="Pintura" class="img_back">
+                <img src="./assets/img/products/sistemas/1.jpg" alt="Manerales de riego de aluminio" class="img_front">
+                <img src="./assets/img/products/sistemas/2.jpg" alt="Manerales de riego de aluminio" class="img_back">
               </div>
               <span class="bttn-next_img carousel_bttn"></span>
             </div>
             <div class="product_info">
-              <h4 class="product_title">Pintura</h4>
-              <p class="product_description">Pintura especializada para mantenimiento de
-                invernaderos                
-              </p>
+              <h4 class="product_title">Manerales de riego de aluminio</h4>
+              <p class="product_description">24 pulgadas y 48 pulgadas</p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-2 product_sistemas">
+        <div class="product_cat_title">
+          <h3>Regaderas de plástico</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+                <span class="bttn-prev_img carousel_bttn"></span>
+                <div class="product_img">
+                  <img src="./assets/img/products/sistemas/3.jpg" alt="Regaderas de plástico" class="img_front">
+                  <img src="./assets/img/products/sistemas/4.jpg" alt="Regaderas de plástico" class="img_back">
+                </div>
+                <span class="bttn-next_img carousel_bttn"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Regaderas de plástico</h4>
+              <p class="product_description">1000 orificios</p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-3 product_sistemas">
+        <div class="product_cat_title">
+          <h3>Sujetador de plástico</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+                <span class="bttn-prev_img carousel_bttn"></span>
+                <div class="product_img">
+                  <img src="./assets/img/products/sistemas/5.jpg" alt="Sujetador de plástico" class="img_front">
+                  <img src="./assets/img/products/sistemas/6.jpg" alt="Sujetador de plástico" class="img_back">
+                </div>
+                <span class="bttn-next_img carousel_bttn"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Sujetador de plástico</h4>
+              <p class="product_description">Nacional</p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-4 product_sistemas">
+        <div class="product_cat_title">
+          <h3>Accesorios en general</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+                <span class="bttn-prev_img carousel_bttn"></span>
+                <div class="product_img">
+                  <img src="./assets/img/products/sistemas/8.jpg" alt="Accesorios en general" class="img_front">
+                  <img src="./assets/img/products/sistemas/9.jpg" alt="Accesorios en general" class="img_back">
+                  <!-- <img src="./assets/img/products/sistemas/7.jpg" alt="Accesorios en general" class="img_back"> -->
+                </div>
+                <span class="bttn-next_img carousel_bttn"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Accesorios en general</h4>
+              <ul class="product_description product_description_list">
+                <li>Goteros</li>
+                <li>Piquetas</li>
+                <li>Tubines</li>
+                <li>Y mucho más</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-5 product_sistemas">
+        <div class="product_cat_title">
+          <h3>Manguera de riego</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+                <span class="bttn-prev_img carousel_bttn"></span>
+                <div class="product_img">
+                  <img src="./assets/img/products/sistemas/10.jpg" alt="Manguera y cintillo de riego" class="img_front">
+                  <img src="./assets/img/products/sistemas/11.jpg" alt="Manguera y cintillo de riego" class="img_back">
+                  <!-- <img src="./assets/img/products/sistemas/12.jpg" alt="Manguera y cintillo de riego" class="img_back"> -->
+                </div>
+                <span class="bttn-next_img carousel_bttn carousel_bttn_moreimgs"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Manguera y cintillo de riego</h4>
+              <p class="product_description">Marcas:</p>
+              <ul class="product_description product_description_list">
+                <li>Netafim</li>
+                <li>Metzer</li>
+                <li>Rivulis Irrigation</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat product_grid_cat-6 product_sistemas">
+        <div class="product_cat_title">
+          <h3>Geomembrana</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+                <span class="bttn-prev_img carousel_bttn"></span>
+                <div class="product_img">
+                  <img src="./assets/img/products/sistemas/13.jpg" alt="Geomembrana de diferentes calibres" class="img_front">
+                  <img src="./assets/img/products/sistemas/14.jpg" alt="Geomembrana de diferentes calibres" class="img_back">
+                </div>
+                <span class="bttn-next_img carousel_bttn"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Geomembrana de diferentes calibres</h4>
+              <p class="product_description"></p>
             </div>
           </article>
         </section>

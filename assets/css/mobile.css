@@ -226,10 +226,10 @@ main .banner.banner--insumos .banner_img {
   background-image: url('../img/cat_ban_1.1.jpg');
 }
 main .banner.banner--sistemas .banner_img {
-  background-image: url('../img/cat_ban_2.jpg');
+  background-image: url('../img/cat_ban_3.jpg');
 }
 main .banner.banner--tractores .banner_img {
-  background-image: url('../img/cat_ban_3.jpg');
+  background-image: url('../img/cat_ban_4.jpg');
 }
 main .banner.banner_categorias .banner_img .banner_title {
   line-height: 40px;
@@ -247,8 +247,8 @@ main .banner.banner_categorias .banner_img p{
 .banner .banner_title {
   font-size: 3rem;
   line-height: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: white;
   font-weight: bold;
   text-align: center;

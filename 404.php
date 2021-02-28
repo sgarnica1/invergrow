@@ -22,7 +22,7 @@
         <div class="contact_banner_divider"></div>
         <div class="contact_banner_text">
           <h3>Haz realidad tus proyectos.</br>Empieza hoy</h3>
-          <a href="./contacto.php">Contactar</a>
+          <a href="./contacto">Contactar</a>
         </div>
       </section>
   </main>

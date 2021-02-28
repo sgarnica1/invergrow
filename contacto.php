@@ -116,6 +116,8 @@
 
   </main>
 
+  <script defer src="./assets/js/validation.js"></script>
+
   <!--FOOTER-->
   <?php
     include 'footer.php'

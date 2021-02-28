@@ -83,43 +83,43 @@
         <section class="carousel">
           <div class="carousel_list">
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_1_c.jpg" alt="" class="carousel_img img1">
+              <img src="./assets/img/brands_logos/b_1_c.jpg" alt="Logo Azteca" class="carousel_img img1">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_2_c.jpg" alt="" class="carousel_img img2">
+              <img src="./assets/img/brands_logos/b_2_c.jpg" alt="Logo Bison" class="carousel_img img2">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_3_c.jpg" alt="" class="carousel_img img3">
+              <img src="./assets/img/brands_logos/b_3_c.jpg" alt="Logo Case In" class="carousel_img img3">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_4_c.jpg" alt="" class="carousel_img img4">
+              <img src="./assets/img/brands_logos/b_4_c.jpg" alt="Logo Famaq" class="carousel_img img4">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_5_c.jpg" alt="" class="carousel_img img5">
+              <img src="./assets/img/brands_logos/b_5_c.jpg" alt="Logo Amssa International" class="carousel_img img5">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_6_c.jpg" alt="" class="carousel_img img6">
+              <img src="./assets/img/brands_logos/b_6_c.jpg" alt="Logo Broch" class="carousel_img img6">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_7_c.jpg" alt="" class="carousel_img img7">
+              <img src="./assets/img/brands_logos/b_7_c.jpg" alt="Logo Jympa" class="carousel_img img7">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_8_c.jpg" alt="" class="carousel_img img8">
+              <img src="./assets/img/brands_logos/b_8_c.jpg" alt="Logo Kimball" class="carousel_img img8">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_9_c.jpg" alt="" class="carousel_img img9">
+              <img src="./assets/img/brands_logos/b_9_c.jpg" alt="Logo New Holland Agriculture" class="carousel_img img9">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_10_c.jpg" alt="" class="carousel_img img10"> 
+              <img src="./assets/img/brands_logos/b_10_c.jpg" alt="Logo Norte Implementos" class="carousel_img img10"> 
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_11_c.jpg" alt="" class="carousel_img img11">
+              <img src="./assets/img/brands_logos/b_11_c.jpg" alt="Logo BKT" class="carousel_img img11">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_12_c.jpg" alt="" class="carousel_img img12">
+              <img src="./assets/img/brands_logos/b_12_c.jpg" alt="Logo Kubota" class="carousel_img img12">
             </div>
             <div class="carousel_item">
-              <img src="./assets/img/brands_logos/b_13_c.jpg" alt="" class="carousel_img img13">
+              <img src="./assets/img/brands_logos/b_13_c.jpg" alt="Logo Swissmex" class="carousel_img img13">
             </div>
           </div>
         </section>
@@ -136,7 +136,7 @@
         <div class="contact_banner_divider"></div>
         <div class="contact_banner_text">
           <h3>Haz realidad tus proyectos.</br>Empieza hoy</h3>
-          <a href="./contacto.html">Contactar</a>
+          <a href="./contacto">Contactar</a>
         </div>
       </section>
   </main>

@@ -149,6 +149,13 @@ main .banner {
 
 .banner .banner_title {
   max-width: 800px;
+  font-size: 4rem;
+}
+main .banner.banner_categorias .banner_img p{
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 2.8rem;
+  text-transform: uppercase;
 }
 
 .banner .banner_bttn {

@@ -30,7 +30,6 @@
 
   <!--SCRIPTS-->
   <script defer src="./assets/js/app.js"></script>
-  <script defer src="./assets/js/validation.js"></script>
   <script defer src="./assets/js/products.js"></script>
 </head>
 <body>
