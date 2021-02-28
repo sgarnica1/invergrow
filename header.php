@@ -48,8 +48,8 @@
         <img src="./assets/logo/invergrow_logo_recortado_blanco.png" alt="Logo Invergrow" >
       </a>
       <ul class="navbar_list">
-        <div class="icon cancel-btn">
-        </div>
+        <li class="icon cancel-btn">
+        </li>
         <li class="navbar_list_item navbar_item"><a href="./" class="activeSection">Inicio</a></li>
         <li class="navbar_list_item navbar_item navbar_submenu_parent">
           <a href="#">Catálogo</a>
