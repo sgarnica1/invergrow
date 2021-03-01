@@ -27,6 +27,13 @@ ul {
   list-style: none;
 }
 
+.navbar_logo img {
+  height: 80px;
+  width: auto;
+}
+header .navbar .header_phone_link {
+  right: 10%;
+}
 main .categories_cards{
   width: 80%;
   margin-bottom: 20px;

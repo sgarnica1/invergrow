@@ -7,6 +7,7 @@ const navBarSubMenu = document.querySelector('.navbar_submenu_parent');
 const subMenu = document.querySelector('.navbar_submenu');
 const menuLinks = document.querySelectorAll('.navbar_list_item');
 const subMenuDropBttn = document.getElementById('dropdown-menu');
+const phoneHeaderLink = document.querySelector('.header_phone_link');
 const topBttn = document.getElementById('top-bttn');
 const whatsAppBttn = document.getElementById('whatsapp-bttn');
 const footerCopywright = document.querySelector('.footer_copywright').firstElementChild;
@@ -51,12 +52,14 @@ const scrollChangeTextColor = () => {
   for(let el of menuLinks) {
     el.firstElementChild.classList.add('toggle')
   }
+  phoneHeaderLink.classList.add('toggle');
 }
 
 const changeTextColor = () => {
   for(let el of menuLinks) {
     el.firstElementChild.classList.remove('toggle')
   }
+  phoneHeaderLink.classList.remove('toggle');
 };
 
 
