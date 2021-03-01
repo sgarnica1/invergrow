@@ -25,15 +25,15 @@
       </div>
       <section class="categories_cards">
         <div class="categories_card cat1">
-          <h4>Insumos: Agricultura Protegida</h4>
+          <h3>Insumos: Agricultura Protegida</h4>
           <a href="./agricultura-protegida">Ver más></a>
         </div>
         <div class="categories_card cat2">
-          <h4>Insumos: Campo Abierto</h4>
+          <h3>Insumos: Campo Abierto</h4>
           <a href="./campo-abierto">Ver más></a>
         </div>
         <div class="categories_card cat3">
-          <h4>Venta y renta de montacargas</h4>
+          <h3>Venta y renta de montacargas</h4>
           <a href="./montacargas">Ver más></a>
         </div>
       </section>

@@ -13,7 +13,7 @@
   <meta name="description" content="<?php echo $description; ?>">
   <meta name="robots" content="<?php echo $should_index?>"/>
   <meta property="og:title" content="<?php echo $ruta; ?>">
-  <meta property="og:image" content="https://parainvernaderos.mx/assets/logo/invergrow_logo_recortado.png">
+  <meta property="og:image" content="https://parainvernaderos.mx/assets/logo/favicon.png">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="<?php echo $description; ?>">
   <title><?php echo $ruta; ?></title>
@@ -35,7 +35,6 @@
 
   <!--SCRIPTS-->
   <script defer src="./assets/js/app.js"></script>
-  <script defer src="./assets/js/products.js"></script>
 
 </head>
 <body>
@@ -64,8 +63,8 @@
         <li class="navbar_list_item navbar_item"><a href="./contacto">Contacto</a></li>
         <li class="navbar_list_item navbar_item"><a href="./assets/catalog/catalogo_invergrow.pdf" target="_blank" download="Catálogo Invergrow 2021">Descargar catálogo</a></li>
         <li class="mobile_nav_social_media">
-          <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook social_media_nav"></a>
-          <a href="https://www.instagram.com/inver.grow/" target="_blank" class="instagram  "></a>
+          <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook social_media_nav" rel="noreferrer noopener"></a>
+          <a href="https://www.instagram.com/inver.grow/" target="_blank" class="instagram" rel="noreferrer noopener"></a>
         </li>
       </ul>
       <a href="tel:4421249783" class="header_phone_link">

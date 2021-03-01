@@ -174,7 +174,9 @@
 </section> 
 </main>  
 
-  <!--FOOTER-->
-  <?php
-    include 'footer.php'
-  ?>
+<script defer src="./assets/js/products.js"></script>
+
+<!--FOOTER-->
+<?php
+  include 'footer.php'
+?>

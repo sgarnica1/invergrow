@@ -383,7 +383,7 @@ main .categories .categories_card {
   background-size: cover;
   cursor: pointer;
 }
-.categories_card h4 {
+.categories_card h3 {
   color: white;
   font-size: 1.8rem;
   font-weight: 600;
@@ -679,7 +679,7 @@ footer .footer_bottom .footer_copywright p {
 footer .footer_bottom .footer_credits a {
   font-size: 1.2rem;
   font-weight: 500;
-  color: var(--secondary-font-color);
+  color: var(--extra-color);
   margin-top: 20px;
   text-decoration: underline;
 }
