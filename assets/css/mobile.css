@@ -415,8 +415,8 @@ main .categories .categories_cards .cat3 {
 }
 .categories_description .category_description p {
   line-height: 30px;
-  font-weight: 400;
-  color: var(--main-font-color);
+  font-weight: 500;
+  color: var(--extra-color);
   text-align: justify;
   font-size: 1.4rem;
   margin-bottom: 20px;
@@ -674,7 +674,7 @@ footer .footer_bottom .footer_credits a {
 main .to_top_bttn {
   position: fixed;
   right: 10px;
-  bottom: 15px;
+  bottom: 35px;
   background-color: rgba(0, 0, 0, 0.5);
   width: 55px;
   height: 55px;
@@ -696,7 +696,7 @@ main .to_top_bttn.hide {
 }
 main .whatsapp-btn {
   position: fixed;
-  bottom: 10px;
+  bottom: 31px;
   left: 10px;
   display: block;
   z-index: 10;

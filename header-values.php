@@ -26,7 +26,7 @@ $des_agricultura = 'Conoce todos nuestros insumos para agricultura protegida, de
 
 $des_campo = 'Conoce todos nuestros insumos para el campo, desde tractores de diferentes marcas como Kubota, Case in y New Holland, hasta implementos agrícolas y refacciones';
 
-$des_montacargas = 'Encuentra con nosotors todo tipo de montacargas que necesites. Para venta o renta. ¡Preguntanos!';
+$des_montacargas = 'Encuentra con nosotors todo tipo de montacargas que necesites. Para venta o renta. ¡Pregúntanos!';
 
 
 /**

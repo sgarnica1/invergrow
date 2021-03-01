@@ -45,7 +45,7 @@
           <div class="category_description_info">
             <h2>1 -</h2>
             <h3>Insumos: Agricultura Protegida</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet vitae tempora amet distinctio temporibus similique aliquam recusandae a sunt earum minima illo vel iure aut rem cupiditate, culpa fugit!</p>
+            <p>Conoce todos nuestros insumos para agricultura protegida, desde clips para tutoreo, rafias y ganchos hasta mezclas profesionales de sustratos, tijeras y navajas.</p>
             <div class="button-border button-border-1">
               <a href="./agricultura-protegida" class="category_description_button description_button_1">Ver catálogo</a>
             </div>
@@ -57,7 +57,7 @@
             <div class="category_description_info_text">
               <h2>2 -</h2>
               <h3>Insumos: Campo Abierto</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet vitae tempora amet distinctio temporibus similique aliquam recusandae a sunt earum minima illo vel iure aut rem cupiditate, culpa fugit!</p>
+              <p>Conoce todos nuestros insumos para el campo, desde tractores de diferentes marcas como Kubota, Case in y New Holland, hasta implementos agrícolas y refacciones.</p>
               <div class="button-border button-border-2">
                 <a href="./campo-abierto" class="category_description_button description_button_2">Ver catálogo</a>
               </div>
@@ -69,7 +69,7 @@
           <div class="category_description_info">
             <h2>3 -</h2>
             <h3>Venta y renta de montacargas</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet vitae tempora amet distinctio temporibus similique aliquam recusandae a sunt earum minima illo vel iure aut rem cupiditate, culpa fugit!</p>
+            <p>Encuentra con nosotors todo tipo de montacargas que necesites. Para venta o renta. ¡Pregúntanos!</p>
             <div class="button-border button-border-3">
               <a href="./montacargas" class="category_description_button description_button_3">Ver catálogo</a>
             </div>

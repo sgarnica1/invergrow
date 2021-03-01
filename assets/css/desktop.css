@@ -230,6 +230,9 @@ main .categories .categories_card:hover {
   width: 80%;
   margin: 0 auto;
 }
+main .categories_description .category_description .category_description_info p{
+  font-size: 1.6rem;
+}
 
 .button-border {
   width: 80%;
