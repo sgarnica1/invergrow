@@ -49,7 +49,7 @@
             <div class="button-border button-border-1">
               <a href="./agricultura-protegida" class="category_description_button description_button_1">Ver catálogo</a>
             </div>
-            <img src="./assets/img/cat_des_1_mb.png" alt="Imagen de invernadero con plantas color" class="category_description_img">
+            <img src="./assets/img/cat_des_2_mb.png" alt="Imagen de invernadero con plantas color" class="category_description_img">
           </div>
         </div>
         <div class="category_description category_2">
@@ -62,7 +62,7 @@
                 <a href="./campo-abierto" class="category_description_button description_button_2">Ver catálogo</a>
               </div>
             </div>
-            <img src="./assets/img/cat_des_2_mb.png" alt="Imagen de un par de macetas y plantas siendo plantadas" class="category_description_img">
+            <img src="./assets/img/cat_des_3_mb.png" alt="Imagen de un tractor grande, color verde con llantas negras con rines rojos" class="category_description_img">
           </div>
         </div>
         <div class="category_description category_3">
@@ -73,7 +73,7 @@
             <div class="button-border button-border-3">
               <a href="./montacargas" class="category_description_button description_button_3">Ver catálogo</a>
             </div>
-            <img src="./assets/img/cat_des_3_mb.png" alt="Imagen de un tractor grande, color verde con llantas negras con rines rojos" class="category_description_img">
+            <img src="./assets/img/cat_des_3.1_mb.png" alt="Imagen de un tractor grande, color verde con llantas negras con rines rojos" class="category_description_img">
           </div>
         </div>
       </section>
