@@ -42,7 +42,7 @@
         <div class="category_description category_1">
           <div class="category_description_info">
             <h2>1 -</h2>
-            <h3>Insumos para invernadero</h3>
+            <h3>Insumos: Agricultura Protegida</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet vitae tempora amet distinctio temporibus similique aliquam recusandae a sunt earum minima illo vel iure aut rem cupiditate, culpa fugit!</p>
             <div class="button-border button-border-1">
               <a href="./agricultura-protegida" class="category_description_button description_button_1">Ver catálogo</a>
@@ -54,7 +54,7 @@
           <div class="category_description_info">
             <div class="category_description_info_text">
               <h2>2 -</h2>
-              <h3>Sistemas de riego y accesorios</h3>
+              <h3>Insumos: Campo Abierto</h3>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet vitae tempora amet distinctio temporibus similique aliquam recusandae a sunt earum minima illo vel iure aut rem cupiditate, culpa fugit!</p>
               <div class="button-border button-border-2">
                 <a href="./campo-abierto" class="category_description_button description_button_2">Ver catálogo</a>
@@ -66,7 +66,7 @@
         <div class="category_description category_3">
           <div class="category_description_info">
             <h2>3 -</h2>
-            <h3>Tractores y maquinaria agrícola</h3>
+            <h3>Venta y renta de montacargas</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet vitae tempora amet distinctio temporibus similique aliquam recusandae a sunt earum minima illo vel iure aut rem cupiditate, culpa fugit!</p>
             <div class="button-border button-border-3">
               <a href="./montacargas" class="category_description_button description_button_3">Ver catálogo</a>

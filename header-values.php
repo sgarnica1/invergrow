@@ -7,13 +7,13 @@ $ruta;
 /**
  * Page title
  */
-$inicio = 'Invergrow | Soluciones agrícolas';
-$contacto = 'Contacto - Invergrow | Soluciones agrícolas';
-$agricultura = 'Insumos: Agricultura Protegida | Invergeow - Soluciones Agrícolas';
-$campo = 'Insumos: Campo Abierto | Invergeow - Soluciones Agrícolas';
-$montacargas = 'Venta y renta de montacargas | Soluciones agrícolas';
+$inicio = 'Invergrow | Soluciones Agrícolas';
+$contacto = 'Contacto - Invergrow | Soluciones Agrícolas';
+$agricultura = 'Insumos: Agricultura Protegida - Invergrow | Soluciones Agrícolas';
+$campo = 'Insumos: Campo Abierto - Invergrow | Soluciones Agrícolas';
+$montacargas = 'Venta y renta de montacargas - Invergrow | Soluciones Agrícolas';
 $error404 = 'Error 404';
-$politicas = 'Políticas de privacidad | Invergeow - Soluciones Agrícolas';
+$politicas = 'Políticas de privacidad - Invergrow | Soluciones Agrícolas';
 
 /**
  * Page description

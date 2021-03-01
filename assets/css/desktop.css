@@ -86,7 +86,7 @@ header .navbar {
   transition: ease 0.3s all;
 }
 .navbar_list_item.navbar_item .activeSection {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   border-bottom: none;
 }
 .navbar_list .navbar_list_item.navbar_item.navbar_submenu_parent .navbar_submenu {
