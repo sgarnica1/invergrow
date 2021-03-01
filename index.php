@@ -11,7 +11,9 @@
 
     <section class="banner main_banner" id="inicio">
       <div class="banner_img">
-        <h1 class="banner_title">EMPIEZA TUS PROYECTOS <span>HOY</span> CON LAS MEJORES HERRAMIENTAS</h1>
+        <h1 class="banner_title">¡Cotiza ya los mejores precios del mercado!</h1>
+        <hr class="banner_divider">
+        <h2 class="banner_subtitle">Conoce Invergrow</h2>
         <a href="#categories" class="banner_bttn">Ver catálogo</a>
       </div>
     </section>

@@ -288,7 +288,6 @@
             <div class="product_info">
               <h4 class="product_title">Ground cover</h4>
               <ul class="product_description product_description_list">
-                <li>Ground cover marca Arrigoni</li>
                 <li>Medidas estándar de 3.3 m x 100 m y 4.15 m x 100 m</li>
                 <li>Protección de hierbas infestantes</li>
                 <li>Evita contaminación al contacto con el suelo</li>
@@ -315,7 +314,6 @@
             <div class="product_info">
               <h4 class="product_title">Mallas anti-afidos</h4>
               <ul class="product_description product_description_list">
-                <li>Mallas anti-afidos marca Arrigoni</li>
                 <li>Mallas anti-insectos de alta tenacidad con alto nivel de transparencia y larga vida</li>
               </ul>
             </div>
@@ -339,7 +337,6 @@
             <div class="product_info">
               <h4 class="product_title">Plásticos para invernadero</h4>
               <ul class="product_description product_description_list">
-                <li>Marca HYPLAST</li>
                 <li>Plásticos de alta tecnología con coextrusión de hasta 7 capas</li>
               </ul>
             </div>
@@ -641,14 +638,13 @@
             <div class="product_img_container">
                 <span class="bttn-prev_img carousel_bttn"></span>
                 <div class="product_img">
-                  <img src="./assets/img/products/sistemas/10.jpg" alt="Manguera y cintillo de riego" class="img_front">
-                  <img src="./assets/img/products/sistemas/11.jpg" alt="Manguera y cintillo de riego" class="img_back">
-                  <!-- <img src="./assets/img/products/sistemas/12.jpg" alt="Manguera y cintillo de riego" class="img_back"> -->
+                  <img src="./assets/img/products/sistemas/10.jpg" alt="Manguera y cintilla de riego" class="img_front">
+                  <img src="./assets/img/products/sistemas/11.jpg" alt="Manguera y cintilla de riego" class="img_back">
                 </div>
                 <span class="bttn-next_img carousel_bttn carousel_bttn_moreimgs"></span>
             </div>
             <div class="product_info">
-              <h4 class="product_title">Manguera y cintillo de riego</h4>
+              <h4 class="product_title">Manguera y cintilla de riego</h4>
               <p class="product_description">Marcas:</p>
               <ul class="product_description product_description_list">
                 <li>Netafim</li>

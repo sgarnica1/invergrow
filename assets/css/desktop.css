@@ -148,8 +148,9 @@ main .banner {
 }
 
 .banner .banner_title {
-  max-width: 800px;
-  font-size: 4rem;
+  max-width: 1000px;
+  font-size: 3.5rem;
+  margin-top: 50px;
 }
 main .banner.banner_categorias .banner_img p{
   color: var(--main-color);
