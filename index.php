@@ -24,18 +24,15 @@
         <h2>Conoce nuestras categorías</h2>
       </div>
       <section class="categories_cards">
-        <div class="categories_card cat1">
+        <a href="./agricultura-protegida" class="categories_card cat1">
           <h3>Insumos: Agricultura Protegida</h4>
-          <a href="./agricultura-protegida">Ver más></a>
-        </div>
-        <div class="categories_card cat2">
+        </a>
+        <a href="./campo-abierto" class="categories_card cat2">
           <h3>Insumos: Campo Abierto</h4>
-          <a href="./campo-abierto">Ver más></a>
-        </div>
-        <div class="categories_card cat3">
+        </a>
+        <a href="./montacargas" class="categories_card cat3">
           <h3>Venta y renta de montacargas</h4>
-          <a href="./montacargas">Ver más></a>
-        </div>
+        </a>
       </section>
       </section>
 
