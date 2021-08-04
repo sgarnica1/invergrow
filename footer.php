@@ -33,18 +33,20 @@
         <img src="./assets/logo/invergrow_logo_recortado.png" alt="Logo Invergrow blanco">
       </div>
     </section>
-    <section class="footer_bottom">
-      <div class="footer_social_media">
-        <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook" rel="noreferrer noopener"></a>
-        <a href="https://www.instagram.com/inver.grow/" target="_blank" class="instagram" rel="noreferrer noopener"></a>
-      </div>
-      <div class="footer_copywright">
-        <p></p>
-      </div>
-      <div class="footer_credits">
-        <a href="https://wa.link/us8j9p" target="_blank" rel="noreferrer noopener">Desarrollado por Sergio Garnica</a>
-      </div>
-    </section>
+    <div class="footer_cotainer_bottom">
+      <section class="footer_bottom">
+        <div class="footer_social_media">
+          <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook" rel="noreferrer noopener"></a>
+          <a href="https://www.instagram.com/inver.grow/" target="_blank" class="instagram" rel="noreferrer noopener"></a>
+        </div>
+        <div class="footer_copywright">
+          <p></p>
+        </div>
+        <div class="footer_credits">
+          <a href="https://wa.link/us8j9p" target="_blank" rel="noreferrer noopener">Desarrollado por Sergio Garnica</a>
+        </div>
+      </section>
+    </div>
   </footer>
 </body>
 </html>

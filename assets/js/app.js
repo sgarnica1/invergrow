@@ -221,5 +221,3 @@ navElementNosotros.addEventListener('click', () => {
     showBttns();
   }
 })
-
-
