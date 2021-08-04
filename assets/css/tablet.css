@@ -71,6 +71,9 @@ main .categories .categories_cards .categories_card.cat3 {
 .categories_description .category_description {
   height: 500px;
 }
+.categories_description .category_description.category_3 {
+  padding-top: 100px;
+}
 .categories_description .category_description img {
   width: 40%;
   margin-top: -250px;
