@@ -22,6 +22,10 @@ html {
   --secondary-font: "Poppins", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .navbar,
 .banner_img > *,
 .categories > *,

@@ -520,20 +520,17 @@
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/36.jpg" alt="Protección de cultivos" class="img_front">
-                <img src="./assets/img/products/insumos/37.jpg" alt="Protección de cultivos" class="img_back">
+                <img src="./assets/img/products/insumos/pinturas-sombreo.jpg" alt="Pinturas de sombreo">
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
-              <h4 class="product_title">Protección de cultivos</h4>
+              <h4 class="product_title">Pinturas de sombreo</h4>
               <ul class="product_description product_description_list">
                 <li>Para controlar el clima del invernadero.</li>
                 <li>Control de la temperatura y radiación solar.</li>
-                <li>Se pueden eliminar en cualquier momento con ReduClean.</li>
-                <li>Marca MARDENKRO</li>
               </ul>
             </div>
           </article>
