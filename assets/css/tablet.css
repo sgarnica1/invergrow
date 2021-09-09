@@ -28,39 +28,11 @@ a {
 ul {
   list-style: none;
 }
-/* header nav.navbar {
-  display: grid;
-  grid-template-columns: 60% 13% 80px 25px;
-} */
-
 .navbar_logo img {
   height: 80px;
   width: auto;
 }
-.header_social_media {
-  display: block;
-  position: absolute;
-  right: 26%;
-}
-.header_social_media a {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  margin: 0 20px;
-  margin: 5px;
-}
-.header_social_media a.header_facebook {
-  background-image: url("../icon/fb.svg");
-}
-.header_social_media a.header_instagram {
-  background-image: url("../icon/ig.svg");
-}
-header .navbar .header_phone_link {
-  right: 10%;
-}
+
 main .categories_cards {
   width: 80%;
   margin-bottom: 20px;
