@@ -194,7 +194,7 @@
             </div>
             <div class="product_info">
               <h4 class="product_title">Charolas de plástico rígidas</h4>
-              <p class="product_description">Marca T.O. Plastics</p>
+              <!-- <p class="product_description">Marca T.O. Plastics</p> -->
             </div>
           </article>
           <article class="product_element">
@@ -207,7 +207,7 @@
             </div>
             <div class="product_info">
               <h4 class="product_title">Charolas de plástico flexibles</h4>
-              <p class="product_description">Marca T.O. Plastics</p>
+              <!-- <p class="product_description">Marca T.O. Plastics</p> -->
             </div>
           </article>
           <article class="product_element">
@@ -220,7 +220,7 @@
             </div>
             <div class="product_info">
               <h4 class="product_title">Charolas de plástico de poliestireno (Unicel)</h4>
-              <p class="product_description">Marca T.O. Plastics</p>
+              <!-- <p class="product_description">Marca T.O. Plastics</p> -->
             </div>
           </article>
         </section>
@@ -288,7 +288,6 @@
             <div class="product_info">
               <h4 class="product_title">Ground cover</h4>
               <ul class="product_description product_description_list">
-                <li>Medidas estándar de 3.3 m x 100 m y 4.15 m x 100 m</li>
                 <li>Protección de hierbas infestantes</li>
                 <li>Evita contaminación al contacto con el suelo</li>
                 <li>Facilita la alineación de macetas</li>
@@ -304,12 +303,11 @@
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/18.jpg" alt="Mallas anti-afidos" class="img_front">
-                <img src="./assets/img/products/insumos/23.jpg" alt="Mallas anti-afidos" class="img_back">
+                <img src="./assets/img/products/insumos/23.jpg" alt="Mallas anti-afidos">
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
               <h4 class="product_title">Mallas anti-afidos</h4>
@@ -350,12 +348,11 @@
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
                 <img src="./assets/img/products/insumos/21.jpg" alt="Cinta Polypatch para reparación de plásticos" class="img_front">
-                <img src="./assets/img/products/insumos/24.jpg" alt="Cinta Polypatch para reparación de plásticos" class="img_back">
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
               <h4 class="product_title">Cinta Polypatch para reparación de plásticos</h4>
@@ -374,17 +371,16 @@
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/25.jpg" alt="Fibra de coco" class="img_front">
-                <img src="./assets/img/products/insumos/26.jpg" alt="Fibra de coco" class="img_back">
+                <img src="./assets/img/products/insumos/26.jpg" alt="Fibra de coco">
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
               <h4 class="product_title">Fibra de coco</h4>
               <ul class="product_description product_description_list">
-                <li>Fibra de coco de primera calidad marca Galuku.</li>
+                <li>Fibra de coco de primera calidad.</li>
                 <li>Certificación OMRI para productos orgánicos.</li>
               </ul>
             </div>
@@ -398,17 +394,15 @@
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/insumos/27.jpg" alt="Lana de roca" class="img_front">
-                <img src="./assets/img/products/insumos/28.jpg" alt="Lana de roca" class="img_back">
+                <img src="./assets/img/products/insumos/28.jpg" alt="Lana de roca">
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
               <h4 class="product_title">Lana de roca</h4>
               <ul class="product_description product_description_list">
-                <li>Marca GRODAN</li>
                 <li>Material fabricado a partir de roca volcánica</li>
                 <li>Riego sencillo</li>
                 <li>Mayor homogeneidad</li>
@@ -536,44 +530,72 @@
           </article>
         </section>
       </section>
-      <section class="product_grid_cat product_grid_cat-1 product_sistemas">
-        <div class="product_cat_title slide">
-          <h3>Manerales de riego</h3>
+            <section class="product_grid_cat product_grid_cat-13 product_insumos">
+        <div class="product_cat_title">
+          <h3>Sistemas de Riego</h3>
         </div>
-        <section class="product_list single_product_list">
-          <article class="product_element">
+        <section class="product_list">
+            <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
-                <img src="./assets/img/products/sistemas/1.jpg" alt="Manerales de riego de aluminio" class="img_front">
-                <img src="./assets/img/products/sistemas/2.jpg" alt="Manerales de riego de aluminio" class="img_back">
+                <img src="./assets/img/products/sistemas/1.jpg" alt="Manerales de riego de aluminio">        
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
               <h4 class="product_title">Manerales de riego de aluminio</h4>
               <p class="product_description">24 pulgadas y 48 pulgadas</p>
             </div>
           </article>
-        </section>
-      </section>
-      <section class="product_grid_cat product_grid_cat-2 product_sistemas">
-        <div class="product_cat_title">
-          <h3>Regaderas de plástico</h3>
-        </div>
-        <section class="product_list single_product_list">
-          <article class="product_element">
+                    <article class="product_element">
             <div class="product_img_container">
                 <span class="bttn-prev_img carousel_bttn"></span>
                 <div class="product_img">
-                  <img src="./assets/img/products/sistemas/3.jpg" alt="Regaderas de plástico" class="img_front">
-                  <img src="./assets/img/products/sistemas/4.jpg" alt="Regaderas de plástico" class="img_back">
+                  <img src="./assets/img/products/sistemas/8.jpg" alt="Accesorios en general" class="img_front">
+                  <img src="./assets/img/products/sistemas/9.jpg" alt="Accesorios en general" class="img_back">
+                  <!-- <img src="./assets/img/products/sistemas/7.jpg" alt="Accesorios en general" class="img_back"> -->
                 </div>
                 <span class="bttn-next_img carousel_bttn"></span>
             </div>
             <div class="product_info">
-              <h4 class="product_title">Regaderas de plástico</h4>
-              <p class="product_description">1000 orificios</p>
+              <h4 class="product_title">Accesorios en general</h4>
+              <ul class="product_description product_description_list">
+                <li>Goteros</li>
+                <li>Piquetas</li>
+                <li>Tubines</li>
+                <li>Y mucho más</li>
+              </ul>
+            </div>
+          </article>
+          <article class="product_element">
+            <div class="product_img_container">
+                <span class="bttn-prev_img carousel_bttn"></span>
+                <div class="product_img">
+                  <img src="./assets/img/products/sistemas/10.jpg" alt="Manguera y cintilla de riego" class="img_front">
+                  <img src="./assets/img/products/sistemas/11.jpg" alt="Manguera y cintilla de riego" class="img_back">
+                </div>
+                <span class="bttn-next_img carousel_bttn carousel_bttn_moreimgs"></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Manguera y cintilla de riego</h4>
+              <p class="product_description">Marcas:</p>
+              <ul class="product_description product_description_list">
+                <li>Netafim</li>
+              </ul>
+            </div>
+          </article>
+          <article class="product_element">
+            <div class="product_img_container">
+              <span></span>
+              <div class="product_img">
+                <img src="./assets/img/products/insumos/40.jpg" alt="Sistemas de Riego">
+              </div>
+              <span></span>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Instalación de sistemas de riego</h4>
+              <p class="product_description"></p>
             </div>
           </article>
         </section>
@@ -595,59 +617,6 @@
             <div class="product_info">
               <h4 class="product_title">Sujetador de plástico</h4>
               <p class="product_description">Nacional</p>
-            </div>
-          </article>
-        </section>
-      </section>
-      <section class="product_grid_cat product_grid_cat-4 product_sistemas">
-        <div class="product_cat_title">
-          <h3>Accesorios en general</h3>
-        </div>
-        <section class="product_list single_product_list">
-          <article class="product_element">
-            <div class="product_img_container">
-                <span class="bttn-prev_img carousel_bttn"></span>
-                <div class="product_img">
-                  <img src="./assets/img/products/sistemas/8.jpg" alt="Accesorios en general" class="img_front">
-                  <img src="./assets/img/products/sistemas/9.jpg" alt="Accesorios en general" class="img_back">
-                  <!-- <img src="./assets/img/products/sistemas/7.jpg" alt="Accesorios en general" class="img_back"> -->
-                </div>
-                <span class="bttn-next_img carousel_bttn"></span>
-            </div>
-            <div class="product_info">
-              <h4 class="product_title">Accesorios en general</h4>
-              <ul class="product_description product_description_list">
-                <li>Goteros</li>
-                <li>Piquetas</li>
-                <li>Tubines</li>
-                <li>Y mucho más</li>
-              </ul>
-            </div>
-          </article>
-        </section>
-      </section>
-      <section class="product_grid_cat product_grid_cat-5 product_sistemas">
-        <div class="product_cat_title">
-          <h3>Manguera de riego</h3>
-        </div>
-        <section class="product_list single_product_list">
-          <article class="product_element">
-            <div class="product_img_container">
-                <span class="bttn-prev_img carousel_bttn"></span>
-                <div class="product_img">
-                  <img src="./assets/img/products/sistemas/10.jpg" alt="Manguera y cintilla de riego" class="img_front">
-                  <img src="./assets/img/products/sistemas/11.jpg" alt="Manguera y cintilla de riego" class="img_back">
-                </div>
-                <span class="bttn-next_img carousel_bttn carousel_bttn_moreimgs"></span>
-            </div>
-            <div class="product_info">
-              <h4 class="product_title">Manguera y cintilla de riego</h4>
-              <p class="product_description">Marcas:</p>
-              <ul class="product_description product_description_list">
-                <li>Netafim</li>
-                <li>Metzer</li>
-                <li>Rivulis Irrigation</li>
-              </ul>
             </div>
           </article>
         </section>
