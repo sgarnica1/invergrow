@@ -66,12 +66,12 @@ const changeTextColor = () => {
 //WhatsApp and To Top Bttn Show and Hide
 const showBttns = () => {
   topBttn.classList.remove('hide');
-  whatsAppBttn.classList.remove('hidew');
+  whatsAppBttn.classList.remove('hide');
 };
 
 const hideBttns = () => {
   topBttn.classList.add('hide');
-  whatsAppBttn.classList.add('hidew');
+  whatsAppBttn.classList.add('hide');
 }
 
 
@@ -141,12 +141,12 @@ navBarSubMenu.addEventListener('mouseout', () => {
 
 
 //WhastApp bttn
-whatsAppBttn.addEventListener('mouseover', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
-})
-whatsAppBttn.addEventListener('mouseout', () => {
-  whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
-})
+// whatsAppBttn.addEventListener('mouseover', () => {
+//   whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_1.svg';
+// })
+// whatsAppBttn.addEventListener('mouseout', () => {
+//   whatsAppBttn.firstElementChild.firstElementChild.src = './assets/icon/whatsapp_2.svg';
+// })
 
 
 //Footer Date

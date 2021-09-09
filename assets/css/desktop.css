@@ -46,7 +46,7 @@ section.contact,
 }
 
 .navbar_logo img {
-  height: 80px;
+  height: 75px;
   width: auto;
 }
 main .banner {
@@ -318,11 +318,11 @@ main .to_top_bttn {
 }
 main .whatsapp-btn {
   position: fixed;
-  bottom: 75px;
+  bottom: 55px;
   left: 30px;
 }
 main .whatsapp-btn img {
-  width: 60px;
+  width: 80px;
   height: auto;
 }
 .navbar_list .mobile_nav_social_media {
@@ -502,6 +502,11 @@ main .banner.contact_banner .banner_title {
     right: unset;
     font-size: 1.6rem;
     margin-top: -3px;
+  }
+  .header_social_media {
+    display: block;
+    position: relative;
+    right: unset;
   }
   header {
     position: fixed;

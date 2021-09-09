@@ -40,7 +40,7 @@
       <section class="categories_description">
         <div class="category_description category_1">
           <div class="category_description_info">
-            <h2>1 -</h2>
+            <h2>1</h2>
             <h3>Insumos: Agricultura Protegida</h3>
             <p>Conoce todos nuestros insumos para agricultura protegida, desde clips para tutoreo, rafias y ganchos hasta mezclas profesionales de sustratos, tijeras y navajas.</p>
             <div class="button-border button-border-1">
@@ -52,7 +52,7 @@
         <div class="category_description category_2">
           <div class="category_description_info">
             <div class="category_description_info_text">
-              <h2>2 -</h2>
+              <h2>2</h2>
               <h3>Insumos: Campo Abierto</h3>
               <p>Conoce todos nuestros insumos para el campo, desde tractores de diferentes marcas como Kubota, Case in y New Holland, hasta implementos agrícolas y refacciones.</p>
               <div class="button-border button-border-2">
@@ -64,7 +64,7 @@
         </div>
         <div class="category_description category_3">
           <div class="category_description_info">
-            <h2>3 -</h2>
+            <h2>3</h2>
             <h3>Venta y renta de montacargas</h3>
             <p>Encuentra con nosotors todo tipo de montacargas que necesites. Para venta o renta. ¡Pregúntanos!</p>
             <div class="button-border button-border-3">

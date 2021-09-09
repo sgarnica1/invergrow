@@ -23,6 +23,9 @@ html {
   --main-font: "Montserrat", sans-serif;
   --secondary-font: "Poppins", sans-serif;
 }
+body {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   cursor: pointer;
@@ -91,8 +94,12 @@ header .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5px;
+  padding: 0 5px 0 10px;
 }
+.header_social_media {
+  display: none;
+}
+
 .navbar .navbar_list {
   position: fixed;
   display: flex;
@@ -755,12 +762,17 @@ main .whatsapp-btn {
   display: block;
   z-index: 10;
 }
-main .whatsapp-btn.hidew {
+main .whatsapp-btn.hide {
   display: none;
 }
 main .whatsapp-btn img {
-  width: 60px;
+  width: 85px;
   height: auto;
+  transform: scale(1);
+  transition: ease 0.5s;
+}
+main .whatsapp-btn img:hover {
+  transform: scale(1.1);
 }
 
 /*--PRODUCT GRID--*/
@@ -1284,9 +1296,15 @@ main .product_grid .product_grid_cat .product_cat_title.slide {
 }
 
 /*--MOBILE MEDIA QUERIES--*/
-@media (min-width: 350px) {
+@media (min-width: 370px) {
+  header .navbar {
+    padding: 0 20px;
+  }
   .navbar_logo img {
-    height: 80px;
+    height: 72px;
     width: auto;
+  }
+  .icon.menu-btn {
+    margin-right: 0px;
   }
 }

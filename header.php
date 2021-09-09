@@ -87,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </li>
         <li class="navbar_list_item navbar_item"><a href="./#nosotros" class="nosotros_link">Nosotros</a></li>
         <li class="navbar_list_item navbar_item"><a href="./contacto">Contacto</a></li>
-        <li class="navbar_list_item navbar_item"><a href="./assets/catalog/catalogo_invergrow.pdf" target="_blank" download="Catálogo Invergrow 2021">Descargar catálogo</a></li>
+        <li class="navbar_list_item navbar_item"><a href="./assets/catalog/catalogo_invergrow.pdf" target="_blank" download="Catálogo Invergrow 2021">Catálogo</a></li>
         <li class="mobile_nav_social_media">
           <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook social_media_nav" rel="noreferrer noopener"></a>
           <a href="https://www.instagram.com/inver.grow/" target="_blank" class="instagram" rel="noreferrer noopener"></a>
@@ -104,8 +104,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </clipPath>
           </defs>
         </svg>
-        442.123.4567
+        442.124.9783
       </a>
+      <div class="header_social_media">
+          <a href="https://www.facebook.com/invergrow" target="_blank" class="header_facebook" rel="noreferrer noopener"></a>
+          <a href="https://www.instagram.com/inver.grow/" target="_blank" class="header_instagram" rel="noreferrer noopener"></a>
+        </div>
       <div class="icon menu-btn">
         <span></span>
       </div>
@@ -121,6 +125,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="to_top_bttn hide" id="top-bttn">
       <a href="#inicio"><img src="./assets/icon/angle-up-white.svg" alt=""></a>
     </div>
-    <div class="whatsapp-btn hidew" id="whatsapp-bttn">
-      <a href="https://wa.link/hyuyal" target="_blank"><img src="./assets/icon/whatsapp_2.svg" alt=""></a>
+    <div class="whatsapp-btn hide" id="whatsapp-bttn">
+      <a href="https://wa.link/hyuyal" target="_blank"><img src="./assets/icon/whatsapp_1.svg" alt=""></a>
     </div>
