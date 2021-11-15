@@ -1239,7 +1239,7 @@ main .banner.contact_banner {
   }
 }
 
-main .product_grid .product_grid_cat .product_cat_title.slide {
+/* main .product_grid .product_grid_cat .product_cat_title.slide {
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-name: slide-left;
@@ -1253,7 +1253,7 @@ main .product_grid .product_grid_cat .product_cat_title.slide {
   100% {
     transform: translateX(0);
   }
-}
+} */
 
 /*--MOBILE MEDIA QUERIES--*/
 @media (max-width: 370px) {

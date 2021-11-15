@@ -38,7 +38,8 @@ body {
 .footer_content,
 .footer_bottom,
 section.contact,
-.product_grid_cat .product_list {
+.product_grid_cat .product_list,
+.wrapper {
   max-width: 1240px;
 }
 .banner.contact_banner .banner_img {

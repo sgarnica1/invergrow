@@ -3,8 +3,8 @@
  * Include header
  * From header.php
 */
-
-  include 'header.php'
+  include "head.php";
+  include 'header.php';
 ?> 
   
     <!--MAIN BANNER-->

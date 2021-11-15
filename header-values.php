@@ -9,7 +9,8 @@ $ruta;
  */
 $inicio = 'Invergrow | Soluciones Agrícolas';
 $contacto = 'Contacto - Invergrow | Soluciones Agrícolas';
-$agricultura = 'Insumos: Agricultura Protegida - Invergrow | Soluciones Agrícolas';
+// $agricultura = 'Insumos: Agricultura Protegida - Invergrow | Soluciones Agrícolas';
+$productos = 'Productos - Invergrow | Soluciones Agrícolas';
 $campo = 'Insumos: Campo Abierto - Invergrow | Soluciones Agrícolas';
 $montacargas = 'Venta y renta de montacargas - Invergrow | Soluciones Agrícolas';
 $error404 = 'Error 404';
@@ -49,8 +50,8 @@ if($nombreRuta == 'index') {
   $ruta = $contacto;
   $description = $des_contacto;
   $should_index = $index;
-} elseif ($nombreRuta == 'agricultura-protegida') {
-  $ruta = $agricultura;
+} elseif ($nombreRuta == 'productos') {
+  $ruta = $productos;
   $description = $des_agricultura;
   $should_index = $index;
 } elseif ($nombreRuta == 'campo-abierto') {

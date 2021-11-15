@@ -3,8 +3,8 @@
  * Include header
  * From header.php
 */
-
-  include 'header.php'
+  include "head.php";
+  include 'header.php';
 ?>
 
     <!--MAIN BANNER-->
@@ -14,7 +14,7 @@
         <h1 class="banner_title">¡Cotiza ya los mejores precios del mercado!</h1>
         <hr class="banner_divider">
         <h2 class="banner_subtitle">Conoce Invergrow</h2>
-        <a href="./agricultura-protegida" class="banner_bttn">Ver Productos</a>
+        <a href="./productos" class="banner_bttn">Ver Productos</a>
       </div>
     </section>
 
@@ -24,7 +24,7 @@
         <h2>Conoce nuestras categorías</h2>
       </div>
       <section class="categories_cards">
-        <a href="./agricultura-protegida" class="categories_card cat1">
+        <a href="./productos" class="categories_card cat1">
           <h3>Insumos Agricultura Protegida</h4>
         </a>
       </section>
@@ -38,7 +38,7 @@
             <h3>Insumos: Agricultura Protegida</h3>
             <p>Conoce todos nuestros insumos para agricultura protegida, desde clips para tutoreo, rafias y ganchos hasta mezclas profesionales de sustratos, tijeras y navajas.</p>
             <div class="button-border button-border-1">
-              <a href="./agricultura-protegida" class="category_description_button description_button_1">Ver catálogo</a>
+              <a href="./productos" class="category_description_button description_button_1">Ver catálogo</a>
             </div>
             <img src="./assets/img/cat_des_2_mb.png" alt="Imagen de invernadero con plantas color" class="category_description_img">
           </div>
