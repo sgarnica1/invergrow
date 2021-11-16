@@ -292,7 +292,7 @@ main .banner.banner_categorias .banner_img p {
   font-size: 1.6rem;
   font-weight: 600;
   font-family: var(--main-font);
-  color: white;
+  color: var(--main-color);
 }
 .banner .banner_bttn:hover {
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
@@ -837,6 +837,28 @@ main .whatsapp-btn img:hover {
   color: var(--secondary-font-color);
   font-weight: 500;
   font-size: 1.4rem;
+  line-height: 2;
+}
+.product_link-button {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid var(--main-font-color);
+  color: var(--main-font-color);
+  transition: ease 0.5s all;
+}
+.product_link-button:hover {
+  transition: ease 0.5s;
+  background-color: var(--main-font-color);
+  color: white;
 }
 .product_list .product_element .product_info .product_description_list {
   list-style-type: disc;
