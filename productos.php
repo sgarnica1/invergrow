@@ -135,7 +135,7 @@
                 <span class="bttn-prev_img carousel_bttn"></span>
                 <div class="product_img">
                   <img src="./assets/img/products/sistemas/13.jpg" alt="Geomembrana de diferentes calibres" class="img_front">
-                  <img src="./assets/img/products/sistemas/14.jpg" alt="Geomembrana de diferentes calibres" class="img_back">
+                  <img src="https://parainvernaderos.mx/imagenes/productos/geomembrana.1.jpeg" alt="Geomembrana de diferentes calibres" class="img_back">
                 </div>
                 <span class="bttn-next_img carousel_bttn"></span>
             </div>
@@ -400,12 +400,11 @@
         <section class="product_list single_product_list">
           <article class="product_element">
             <div class="product_img_container">
-              <span class="bttn-prev_img carousel_bttn"></span>
+              <span></span>
               <div class="product_img">
-                <img src="https://parainvernaderos.mx/imagenes/productos/redusol-min.jpg" alt="Pinturas de sombreo" class="img_front">
-                <img src="https://parainvernaderos.mx/imagenes/productos/reduheat-min.jpg" alt="Pinturas de sombreo" class="img_back">
+                <img src="https://parainvernaderos.mx/assets/img/products/insumos/pinturas-sombreo.jpg" alt="Pinturas de sombreo" class="img_front">
               </div>
-              <span class="bttn-next_img carousel_bttn"></span>
+              <span></span>
             </div>
             <div class="product_info">
               <h4 class="product_title">Pinturas de sombreo</h4>
@@ -464,7 +463,7 @@
           </article>
         </section>
       </section>
-      <section class="product_grid_cat">
+      <section class="product_grid_cat services">
         <div class="product_cat_title">
           <h3>Servicios</h3>
         </div>
@@ -510,8 +509,7 @@
             </div>
             <div class="product_info">
               <h4 class="product_title">Instalación de tanques de agua</h4>
-              <p class="product_description">Dejanos el trabajo de limpieza y desinfección al final del ciclo</p>
-              <p class="product_description">¡Nosotros nos encargamos!</p>
+              <p class="product_description">Forrados con geomembrana para el almacenamiento de agua</p>
             </div>
           </article>
         </section>

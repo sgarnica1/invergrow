@@ -79,11 +79,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <section class="product__container">
           <div class="product__image-container">
             <div class="product__image-main">
-              <img id="template-img" src="https://parainvernaderos.mx/imagenes/productos/geomembrana-min.jpg" alt="Geomembrana">
+              <img id="template-img" src="https://parainvernaderos.mx/imagenes/productos/geomembrana.1.jpeg" alt="Geomembrana">
             </div>
             <div class="prodcut__image-gallery">
-              <img src="https://parainvernaderos.mx/imagenes/productos/geomembrana-min.jpg" alt="Geomembrana" class="product__image-gallery-article">
-              <img src="https://parainvernaderos.mx/imagenes/productos/geomembrana-2-min.jpg" alt="Geomembrana" class="product__image-gallery-article">
+              <img src="https://parainvernaderos.mx/imagenes/productos/geomembrana.1.jpeg" alt="Geomembrana" class="product__image-gallery-article">
+              <img src="https://parainvernaderos.mx/imagenes/productos/geomembrana.6.jpeg" alt="Geomembrana" class="product__image-gallery-article">
+              <img src="https://parainvernaderos.mx/imagenes/productos/geomembrana.3.jpeg" alt="Geomembrana" class="product__image-gallery-article">
             </div>
           </div>
           <div class="product__info">
