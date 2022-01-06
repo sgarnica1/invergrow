@@ -32,11 +32,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Nuestras charolas de germinación tienen excelentes cualidades para la siembra de una gran variedad de semillas, tiene el diseño y tamaño adecuado para lograr una rápida y saludable germinación. ">
   <meta name="robots" content="index"/>
-  <meta property="og:title" content="Charolas de propagación - Invergrow | Soluciones Agrícolas">
+  <meta property="og:title" content="Charolas de propagación - Inveralia | Soluciones Agrícolas + Geomembranas">
   <meta property="og:image" content="https://parainvernaderos.mx/imagenes/productos/charolas-de-propagacion-2-min.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="Nuestras charolas de germinación tienen excelentes cualidades para la siembra de una gran variedad de semillas, tiene el diseño y tamaño adecuado para lograr una rápida y saludable germinación. ">
-  <title>Charolas de propagación - Invergrow | Soluciones Agrícolas</title>
+  <title>Charolas de propagación - Inveralia | Soluciones Agrícolas + Geomembranas</title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">

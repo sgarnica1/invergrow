@@ -2,7 +2,7 @@
     <nav class="navbar">
       <div class="navbar__logo-container">
         <a href="./" class="navbar__logo" id="home_logo">
-          <img src="./assets/logo/invergrow_logo_recortado.png" alt="Logo Invergrow">
+          <img src="https://parainvernaderos.mx/imagenes/logo/inveralia_logo_recortado.png" alt="Logo Inveralia">
         </a>
       </div>
       <ul class="navbar_list mobile">
@@ -12,7 +12,7 @@
         <li class="navbar_list_item navbar_item"><a href="./productos">Productos</a></li>
         <li class="navbar_list_item navbar_item"><a href="./#nosotros" class="nosotros_link">Nosotros</a></li>
         <li class="navbar_list_item navbar_item"><a href="./contacto">Contacto</a></li>
-        <li class="navbar_list_item navbar_item"><a href="./assets/catalog/catalogo_invergrow.pdf" target="_blank"
+        <li class="navbar_list_item navbar_item"><a href="https://parainvernaderos.mx/assets/catalog/catalogo_inveralia.pdf" target="_blank"
             download="Catálogo Invergrow 2021">Catálogo</a></li>
         <li class="mobile_nav_social_media">
           <a href="https://www.facebook.com/invergrow" target="_blank" class="facebook social_media_nav"

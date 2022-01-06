@@ -32,11 +32,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="La Malla antiáfidos es una barrera física encargada de la protección de los invernaderos ante la posible entrada de insectos o microorganismos que puedan causar una pérdida en el cultivo.">
   <meta name="robots" content="index"/>
-  <meta property="og:title" content="Mallas antiáfidos - Invergrow | Soluciones Agrícolas">
+  <meta property="og:title" content="Mallas antiáfidos - Inveralia | Soluciones Agrícolas + Geomembranas">
   <meta property="og:image" content="https://parainvernaderos.mx/imagenes/productos/mallas-antiafidos-min.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="La Malla antiáfidos es una barrera física encargada de la protección de los invernaderos ante la posible entrada de insectos o microorganismos que puedan causar una pérdida en el cultivo.">
-  <title>Mallas antiáfidos - Invergrow | Soluciones Agrícolas</title>
+  <title>Mallas antiáfidos - Inveralia | Soluciones Agrícolas + Geomembranas</title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">

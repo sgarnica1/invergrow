@@ -32,11 +32,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="La malla ground cover o malla antimaleza tiene la función de cubrir la tierra debajo de un invernadero, o bien, de una instalación para prevenir el crecimiento de plantas ajenas a tu cultivo ayudándote a mantener un área más limpia.">
   <meta name="robots" content="index"/>
-  <meta property="og:title" content="Ground cover - Invergrow | Soluciones Agrícolas">
+  <meta property="og:title" content="Ground cover - Inveralia | Soluciones Agrícolas + Geomembranas">
   <meta property="og:image" content="https://parainvernaderos.mx/imagenes/productos/ground-cover-2-min.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="La malla ground cover o malla antimaleza tiene la función de cubrir la tierra debajo de un invernadero, o bien, de una instalación para prevenir el crecimiento de plantas ajenas a tu cultivo ayudándote a mantener un área más limpia.">
-  <title>Ground cover - Invergrow | Soluciones Agrícolas</title>
+  <title>Ground cover - Inveralia | Soluciones Agrícolas + Geomembranas</title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">

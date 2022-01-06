@@ -32,11 +32,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="La rafia para tutoreo le ofrecerá un soporte a su cultivo para que las plantas puedan crecer y fortalecerse de forma adecuada.">
   <meta name="robots" content="index"/>
-  <meta property="og:title" content="Rafia y ganchos para tutoreo - Invergrow | Soluciones Agrícolas">
+  <meta property="og:title" content="Rafia y ganchos para tutoreo - Inveralia | Soluciones Agrícolas + Geomembranas">
   <meta property="og:image" content="https://parainvernaderos.mx/imagenes/productos/rafia-para-tutoreo-2-min.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="La rafia para tutoreo le ofrecerá un soporte a su cultivo para que las plantas puedan crecer y fortalecerse de forma adecuada.">
-  <title>Rafia y ganchos para tutoreo - Invergrow | Soluciones Agrícolas</title>
+  <title>Rafia y ganchos para tutoreo - Inveralia | Soluciones Agrícolas + Geomembranas</title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">

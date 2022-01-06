@@ -7,14 +7,14 @@ $ruta;
 /**
  * Page title
  */
-$inicio = 'Inveralia | Soluciones Agrícolas';
-$contacto = 'Contacto - Inveralia | Soluciones Agrícolas';
+$inicio = 'Inveralia | Soluciones Agrícolas + Geomembranas';
+$contacto = 'Contacto - Inveralia | Soluciones Agrícolas + Geomembranas';
 // $agricultura = 'Insumos: Agricultura Protegida - Inveralia | Soluciones Agrícolas';
-$productos = 'Productos - Inveralia | Soluciones Agrícolas';
-$campo = 'Insumos: Campo Abierto - Inveralia | Soluciones Agrícolas';
-$montacargas = 'Venta y renta de montacargas - Inveralia | Soluciones Agrícolas';
+$productos = 'Productos - Inveralia | Soluciones Agrícolas + Geomembranas';
+$campo = 'Insumos: Campo Abierto - Inveralia | Soluciones Agrícolas + Geomembranas';
+$montacargas = 'Venta y renta de montacargas - Inveralia | Soluciones Agrícolas + Geomembranas';
 $error404 = 'Error 404';
-$politicas = 'Políticas de privacidad - Inveralia | Soluciones Agrícolas';
+$politicas = 'Políticas de privacidad - Inveralia | Soluciones Agrícolas + Geomembranas';
 
 /**
  * Page description

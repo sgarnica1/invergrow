@@ -33,7 +33,7 @@
   <meta name="description" content="<?php echo $description; ?>">
   <meta name="robots" content="<?php echo $should_index?>"/>
   <meta property="og:title" content="<?php echo $ruta; ?>">
-  <meta property="og:image" content="https://parainvernaderos.mx/assets/logo/favicon.png">
+  <meta property="og:image" content="https://parainvernaderos.mx/imagenes/logo/favicon.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="<?php echo $description; ?>">
   <title><?php echo $ruta; ?></title>
