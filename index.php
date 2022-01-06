@@ -13,7 +13,7 @@
       <div class="banner_img">
         <h1 class="banner_title">¡Cotiza ya los mejores precios del mercado!</h1>
         <hr class="banner_divider">
-        <h2 class="banner_subtitle">Conoce Invergrow</h2>
+        <h2 class="banner_subtitle">Conoce Inveralia</h2>
         <a href="./productos" class="banner_bttn">Ver Productos</a>
       </div>
     </section>
@@ -49,7 +49,7 @@
       <!--NOSOTROS-->
       <section class="hero" id=nosotros>
         <p>Nuestra misión es ofrecer una experiencia de servicio con calidad de excelencia sin dejar de lado el contacto humano con humano en donde nos proponemos a empatizar con la problemática de nuestros clientes y ofrecerles una solución rápida e integral.</p>
-        <img src="./assets/logo/invergrow_logo_recortado_blanco.png" alt="Logo invergrow color blanco">
+        <img src="https://parainvernaderos.mx/imagenes/logo/inveralia_logo_recortado_blanco.png" alt="Logo inveralia color blanco">
       </section>
 
       <!--CONTACT BANNER-->

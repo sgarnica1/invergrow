@@ -25,12 +25,12 @@
       <div class="footer_contact_info footer_contact_info-more-info">
         <h3>Más información</h3>
         <div class="info_links">
-          <a href="./assets/catalog/catalogo_invergrow.pdf" target="_blank" download="Catálogo Invergrow 2021" rel="noreferrer noopener">Descargar catálogo</a>
+          <a href="https://parainvernaderos.mx/assets/catalog/catalogo_inveralia.pdf" target="_blank" download="Catálogo Inveralia 2021" rel="noreferrer noopener">Descargar catálogo</a>
           <a href="./politicas">Políticas de privacidad</a>
         </div>
       </div>
       <div class="footer_img">
-        <img src="./assets/logo/invergrow_logo_recortado.png" alt="Logo Invergrow blanco">
+        <img src="https://parainvernaderos.mx/imagenes/logo/inveralia_logo_recortado.png" alt="Logo Inveralia blanco">
       </div>
     </section>
     <div class="footer_cotainer_bottom">

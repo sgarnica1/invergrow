@@ -7,20 +7,20 @@ $ruta;
 /**
  * Page title
  */
-$inicio = 'Invergrow | Soluciones Agrícolas';
-$contacto = 'Contacto - Invergrow | Soluciones Agrícolas';
-// $agricultura = 'Insumos: Agricultura Protegida - Invergrow | Soluciones Agrícolas';
-$productos = 'Productos - Invergrow | Soluciones Agrícolas';
-$campo = 'Insumos: Campo Abierto - Invergrow | Soluciones Agrícolas';
-$montacargas = 'Venta y renta de montacargas - Invergrow | Soluciones Agrícolas';
+$inicio = 'Inveralia | Soluciones Agrícolas';
+$contacto = 'Contacto - Inveralia | Soluciones Agrícolas';
+// $agricultura = 'Insumos: Agricultura Protegida - Inveralia | Soluciones Agrícolas';
+$productos = 'Productos - Inveralia | Soluciones Agrícolas';
+$campo = 'Insumos: Campo Abierto - Inveralia | Soluciones Agrícolas';
+$montacargas = 'Venta y renta de montacargas - Inveralia | Soluciones Agrícolas';
 $error404 = 'Error 404';
-$politicas = 'Políticas de privacidad - Invergrow | Soluciones Agrícolas';
+$politicas = 'Políticas de privacidad - Inveralia | Soluciones Agrícolas';
 
 /**
  * Page description
  */
 $description;
-$des_inicio = 'Invergrow. Soluciones agrícolas, soluciones de excelencia. Encuentra con nosotros todo lo que necesitas, desde insumos para invernadero y sistemas de riego y accesorios, hasta tractores y maquinaria agrícloca.';
+$des_inicio = 'Inveralia. Soluciones agrícolas, soluciones de excelencia. Encuentra con nosotros todo lo que necesitas, desde insumos para invernadero y sistemas de riego y accesorios, hasta tractores y maquinaria agrícloca.';
 $des_contacto = '¡Contáctanos! Queremos ayudarte. Encuentra todo lo que necesitas con nosotros, desde insumos para invernadero y artículos para el campo abierto hasta tractores y montacargas.';
 
 $des_agricultura = 'Conoce todos nuestros insumos para agricultura protegida, desde clips para tutoreo, rafias y ganchos hasta mezclas profesionales de sustratos, tijeras y navajas.';

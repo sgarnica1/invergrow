@@ -515,11 +515,11 @@ main .hero p {
   font-family: var(--main-font);
 }
 main .hero img {
-  width: 200px;
+  width: 170px;
   height: auto;
   display: block;
   position: absolute;
-  bottom: 5px;
+  bottom: 20px;
   z-index: -1;
 }
 main .contact_banner {

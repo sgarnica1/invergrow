@@ -72,7 +72,7 @@ closeBttn.addEventListener('click', () => {
 const setDate = () => {
   const date = new Date();
   const year = date.getFullYear();
-  footerCopywright.textContent = `Copyright © ${year} Invergrow | Soluciones Agrícolas`;
+  footerCopywright.textContent = `Copyright © ${year} Inveralia | Soluciones Agrícolas`;
   return year
 }
 
