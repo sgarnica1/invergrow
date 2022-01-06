@@ -32,11 +32,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="El Spacer es un soporte elevador de bolsa de hidroponía fabricado de polipropileno.">
   <meta name="robots" content="index"/>
-  <meta property="og:title" content="Spacer - Inveralia | Soluciones Agrícolas + Geomembranas">
+  <meta property="og:title" content="Spacer - Inveralia | Servicios Agrícolas + Geomembranas">
   <meta property="og:image" content="https://parainvernaderos.mx/imagenes/productos/spacer-2-min.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="El Spacer es un soporte elevador de bolsa de hidroponía fabricado de polipropileno.">
-  <title>Spacer - Inveralia | Soluciones Agrícolas + Geomembranas</title>
+  <title>Spacer - Inveralia | Servicios Agrícolas + Geomembranas</title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">

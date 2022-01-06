@@ -32,11 +32,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Los clips para tutoreo aseguran la mejor guía para el tallo de la planta.">
   <meta name="robots" content="index"/>
-  <meta property="og:title" content="Clip para tutoreo - Inveralia | Soluciones Agrícolas + Geomembranas">
+  <meta property="og:title" content="Clip para tutoreo - Inveralia | Servicios Agrícolas + Geomembranas">
   <meta property="og:image" content="https://parainvernaderos.mx/imagenes/productos/clip-para-tutoreo-min.jpg">
   <meta property="og:url" content="https://parainvernaderos.mx/">
   <meta property="og:description" content="Los clips para tutoreo aseguran la mejor guía para el tallo de la planta.">
-  <title>Clip para tutoreo - Inveralia | Soluciones Agrícolas + Geomembranas</title>
+  <title>Clip para tutoreo - Inveralia | Servicios Agrícolas + Geomembranas</title>
 
   <!--MAIN CSS-->
   <link rel="stylesheet" href="./assets/css/mobile.css">
