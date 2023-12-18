@@ -153,6 +153,30 @@
       </section>
       <section class="product_grid_cat">
         <div class="product_cat_title">
+          <h3>Rollos de polietileno</h3>
+        </div>
+        <section class="product_list single_product_list">
+          <article class="product_element">
+            <div class="product_img_container">
+                <div class="product_img">
+                  <img src="https://parainvernaderos.mx/imagenes/productos/rollo-polietileno.jpg" alt="Rollos de polietileno" class="img_front">
+                </div>
+            </div>
+            <div class="product_info">
+              <h4 class="product_title">Rollos de polietlieno</h4>
+              <ul class="product_description product_description_list">
+                <li>Calibre 600</li>
+                <li>Fácil instalación</li>
+                <li>Flexible</li>
+                <li>Resistente a la interperie y el agua</li>
+              </ul>
+              <a href="./rollo-polietileno" class="product_link-button">Ver más</a>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="product_grid_cat">
+        <div class="product_cat_title">
           <h3>Charolas de propagación</h3>
         </div>
         <section class="product_list single_product_list">
