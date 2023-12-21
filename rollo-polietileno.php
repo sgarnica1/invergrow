@@ -88,11 +88,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h1 class="product__title">Rollos de polietileno</h1>
             <div class="product__divider"></div>
             <div class="product__description">
+              <p>
+                Funciona como barrera de humedad en cimentación y recubrimientos en la agricultura. Es de fácil instalación, flexible y resistente a la interperie y al agua. Se puede usar también para almacenamiento de agua en ollas o bordos rusticos.
+              </p>
+              <p>
+                <br>  
+                Medidas disponibles en calibre 600:
+              </p>
               <ul>
-                <li>Calibre 600</li>
-                <li>Fácil instalación</li>
-                <li>Flexibles</li>
-                <li>Resistentes a la interperie y el agua</li>
+                <li>6 mts ancho x 60 mts largo</li>
+                <li>10 mts ancho x 60 mts largo</li>
+                <li>12 mts ancho x 60 mts largo</li>
               </ul> 
             </div>
           <a href="https://wa.me/message/IFIPNMQNS7XVE1" target="_blank" class="product__button">Cotizar</a>
